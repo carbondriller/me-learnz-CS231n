@@ -1,6 +1,5 @@
 import numpy as np
 from random import shuffle
-from past.builtins import xrange
 
 def softmax_loss_naive(W, X, y, reg):
   """
@@ -60,4 +59,3 @@ def softmax_loss_vectorized(W, X, y, reg):
   #############################################################################
 
   return loss, dW
-

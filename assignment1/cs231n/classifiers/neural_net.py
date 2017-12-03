@@ -2,7 +2,6 @@ from __future__ import print_function
 
 import numpy as np
 import matplotlib.pyplot as plt
-from past.builtins import xrange
 
 class TwoLayerNet(object):
   """
@@ -80,7 +79,7 @@ class TwoLayerNet(object):
     #############################################################################
     #                              END OF YOUR CODE                             #
     #############################################################################
-    
+
     # If the targets are not given then jump out, we're done
     if y is None:
       return scores
@@ -141,7 +140,7 @@ class TwoLayerNet(object):
     train_acc_history = []
     val_acc_history = []
 
-    for it in xrange(num_iters):
+    for it in range(num_iters):
       X_batch = None
       y_batch = None
 
@@ -215,5 +214,3 @@ class TwoLayerNet(object):
     ###########################################################################
 
     return y_pred
-
-
