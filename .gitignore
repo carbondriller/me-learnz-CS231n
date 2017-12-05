@@ -1,5 +1,6 @@
 *.swp
 *.pyc
 .env/*
+__pycache__
 
 assignment1/cs231n/datasets/cifar-10-batches-py
