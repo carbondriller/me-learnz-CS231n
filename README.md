@@ -7,7 +7,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
 
 * [**Assignment 1**](http://cs231n.github.io/assignments2017/assignment1)
     - Q1: k-Nearest Neighbor classifier ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/knn.ipynb))
-    - Q2: Training a Support Vector Machine
+    - Q2: Training a Support Vector Machine ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/svm.ipynb))
     - Q3: Implement a Softmax classifier
     - Q4: Two-Layer Neural Network
     - Q5: Higher Level Representations: Image Features
