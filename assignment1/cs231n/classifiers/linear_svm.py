@@ -83,12 +83,14 @@ def svm_loss_vectorized(W, X, y, reg):
   # Array of correct scores
   correct_scores = scores[np.arange(num_train), y]
   # Array of all scores with the correct ones removed
-  correct_class_mask = np.ones(scores.shape, dtype=bool)
-  correct_class_mask[np.arange(num_train), y] = False
-  incorrect_scores = scores[correct_class_mask].reshape(num_train, num_classes-1)
-  # Loss
+  incorrect_class_mask = np.ones(scores.shape, dtype=bool)
+  incorrect_class_mask[np.arange(num_train), y] = False
+  incorrect_scores = scores[incorrect_class_mask].reshape(num_train, num_classes-1)
+  # Compute margins and limit them to >= 0
   margins = (incorrect_scores.T - correct_scores + delta).T
-  loss = np.sum(np.clip(margins, 0, None))  # Limit negative values to 0
+  margins_lim = np.clip(margins, 0, None)
+  # Compute loss
+  loss = np.sum(margins_lim)  # Limit negative values to 0
   loss /= num_train
   loss += 0.5 * reg * np.sum(W * W)
   #############################################################################
@@ -105,7 +107,19 @@ def svm_loss_vectorized(W, X, y, reg):
   # to reuse some of the intermediate values that you used to compute the     #
   # loss.                                                                     #
   #############################################################################
-  pass
+  # Truth array of margins greater than zero
+  margins_gt_zero = np.array(margins_lim, dtype=bool)
+  # Matrix A of shape (num_train, num_classes) and integer values
+  # Values tell how many times to add i-th sample to the gradient column
+  correct_class_mask = np.logical_not(incorrect_class_mask)
+  A = np.zeros([num_train, num_classes], dtype=np.int8)
+  A[incorrect_class_mask,...] = margins_gt_zero.flatten()
+  A[correct_class_mask,...] = - np.sum(A, axis=1)
+  # Compute gradient       
+  dW = X.T.dot(A)
+  dW /= num_train
+  dW += reg * W
+
   #############################################################################
   #                             END OF YOUR CODE                              #
   #############################################################################
