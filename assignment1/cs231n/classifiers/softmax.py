@@ -38,12 +38,12 @@ def softmax_loss_naive(W, X, y, reg):
     loss += - lim_scores[y[i]] + np.log(np.sum(np.exp(lim_scores)))      
     for j in range(num_classes):
         softmax = np.exp(lim_scores[j]) / np.sum(np.exp(lim_scores))
-        # Derivatives stolen from:
+        # Derivatives stolen from (switched sign):
         #   https://eli.thegreenplace.net/2016/the-softmax-function-and-its-derivative/
-        #if j == y[i]:
-        #    dW += (1 - softmax) * X[i]
-        #else:
-        #    dW += - softmax * X[i]
+        if j == y[i]:
+            dW[:,j] += (softmax - 1) * X[i]
+        else:
+            dW[:,j] += softmax * X[i]        
   # Normalize
   loss /= num_train
   dW /= num_train
