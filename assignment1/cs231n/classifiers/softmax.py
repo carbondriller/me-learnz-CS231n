@@ -73,7 +73,33 @@ def softmax_loss_vectorized(W, X, y, reg):
   # here, it is easy to run into numeric instability. Don't forget the        #
   # regularization!                                                           #
   #############################################################################
-  pass
+  num_classes = W.shape[1]
+  num_train = X.shape[0]
+
+  scores = X.dot(W)
+  lim_scores = scores - np.max(scores) # Limit scores
+  # Array of correct scores
+  correct_scores = lim_scores[np.arange(num_train), y]
+  # Compute loss
+  loss_array = - correct_scores + np.log(np.sum(np.exp(lim_scores), axis=1))
+  loss = np.sum(loss_array)
+
+  softmaxes = np.exp(lim_scores) / np.sum(np.exp(lim_scores), axis=1)[:,None]
+  # Matrix A size (num_train, num_classes), same purpose as in SVM
+  # A[sample, correct_class] = softmax-1
+  # A[sample, incorrect_class] = softmax  
+  A = np.zeros([num_train, num_classes]) 
+  A[np.arange(num_train), y] = -1
+  A += softmaxes
+  # Compute gradient
+  dW = X.T.dot(A)
+
+  # Normalize
+  loss /= num_train
+  dW /= num_train
+  # Regularize
+  loss += 0.5 * reg * np.sum(W * W)
+  dW += reg * W
   #############################################################################
   #                          END OF YOUR CODE                                 #
   #############################################################################
