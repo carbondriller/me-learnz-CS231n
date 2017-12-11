@@ -19,3 +19,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
 
 * Course homepage: http://cs231n.stanford.edu
 * Course notes: http://cs231n.github.io
+
+## Credits
+
+* [lightaime's solutions](https://github.com/lightaime/cs231n): I used these to verify my solutions and pull me out when stuck
