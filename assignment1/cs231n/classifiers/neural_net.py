@@ -80,8 +80,8 @@ class TwoLayerNet(object):
     # activation function (ReLU, sigmoid, etc.)
     #sig = lambda x: 1.0/(1.0 + np.exp(-x)) # Sigmoid activation function
     relu = lambda x: np.maximum(0, x)      # ReLU activation function
-    h1 = relu(X.dot(W1) + b1)
-    scores = h1.dot(W2) + b2
+    h = relu(X.dot(W1) + b1)
+    scores = h.dot(W2) + b2
        
     #############################################################################
     #                              END OF YOUR CODE                             #
@@ -99,7 +99,19 @@ class TwoLayerNet(object):
     # in the variable loss, which should be a scalar. Use the Softmax           #
     # classifier loss.                                                          #
     #############################################################################
-    pass
+    
+    lim_scores = scores - np.max(scores) # Limit scores
+    # Array of correct scores
+    correct_scores = lim_scores[np.arange(N), y]
+    # Compute softmax loss
+    loss_array = - correct_scores + np.log(np.sum(np.exp(lim_scores), axis=1))    
+    loss = np.sum(loss_array)
+
+    # Normalize
+    loss /= N
+    # Regularize
+    loss += 0.5 * reg * (np.sum(W1 * W1) + np.sum(W2 * W2))
+    
     #############################################################################
     #                              END OF YOUR CODE                             #
     #############################################################################
@@ -111,7 +123,33 @@ class TwoLayerNet(object):
     # and biases. Store the results in the grads dictionary. For example,       #
     # grads['W1'] should store the gradient on W1, and be a matrix of same size #
     #############################################################################
-    pass
+    
+    # W1
+    # ----+                      W2         b2
+    # dW2  \                     ----+      ----+
+    #      (*)----+              dW2  \     db2  \
+    # X    /       \                   \          \  
+    # ----+         \               h   \          \   scores           softmaxes
+    #               (+)------(ReLU)-----(*)--------(+)--------(softmax)----------
+    # b1            /  drelu        dh      dscores    dscores 
+    # -------------+
+    # db1    
+    
+    softmaxes = np.exp(lim_scores) / np.sum(np.exp(lim_scores), axis=1)[:,None]
+    # Gradient of softmax (derivative of softmax - see softmax.py)
+    dscores = softmaxes
+    dscores[np.arange(N), y] -= 1
+    dscores /= N
+    
+    grads['b2'] = np.sum(dscores, axis=0)  # shape (N,C) into (C,)
+    grads['W2'] = h.T.dot(dscores) + reg * W2
+    
+    dh = dscores.dot(W2.T)
+    drelu = (h > 0) * dh
+    
+    grads['b1'] = np.sum(drelu, axis=0)
+    grads['W1'] = X.T.dot(drelu) + reg * W1
+   
     #############################################################################
     #                              END OF YOUR CODE                             #
     #############################################################################
