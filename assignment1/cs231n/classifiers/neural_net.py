@@ -75,19 +75,14 @@ class TwoLayerNet(object):
     # Store the result in the scores variable, which should be an array of      #
     # shape (N, C).                                                             #
     #############################################################################
-    # Two-layer network scores: s = W2 * sig(0, W1*x), where sig is non-linearity
-    # (ReLU, sigmoud, etc.)
-    sig = lambda x: 1.0/(1.0 + np.exp(-x))  # Sigmoid activation function
-    h1 = sig(X.dot(W1) + b1)
     
-    print("shapes:")
-    print("W1: {}".format(W1.shape))    
-    print("b1: {}".format(b1.shape))
-    print("W2: {}".format(W2.shape))
-    print("b2: {}".format(b2.shape))    
-    print("h1: {}".format(h1.shape))    
-        
-    #scores = np.dot(W2, h1) + b2
+    # Two-layer network scores: s = W2 * act(W1*x + b1) + b2, where act is an
+    # activation function (ReLU, sigmoid, etc.)
+    #sig = lambda x: 1.0/(1.0 + np.exp(-x)) # Sigmoid activation function
+    relu = lambda x: np.maximum(0, x)      # ReLU activation function
+    h1 = relu(X.dot(W1) + b1)
+    scores = h1.dot(W2) + b2
+       
     #############################################################################
     #                              END OF YOUR CODE                             #
     #############################################################################
