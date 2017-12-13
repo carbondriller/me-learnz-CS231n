@@ -182,7 +182,10 @@ class FullyConnectedNet(object):
         # beta2, etc. Scale parameters should be initialized to one and shift      #
         # parameters should be initialized to zero.                                #
         ############################################################################
-        pass
+        dims = input_dim + hidden_dims + num_classes
+        for L in range(num_layers):
+            self.params['W{}'.format(L+1)] = np.random.normal(0, weight_scale, (dims[L], dims[L+1]))
+            self.params['b{}'.format(L+1)] = np.zeros(dims[L+1])
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
