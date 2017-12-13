@@ -9,8 +9,8 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q1: k-Nearest Neighbor classifier ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/knn.ipynb))
     - Q2: Training a Support Vector Machine ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/svm.ipynb))
     - Q3: Implement a Softmax classifier ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/softmax.ipynb))
-    - Q4: Two-Layer Neural Network
-    - Q5: Higher Level Representations: Image Features
+    - Q4: Two-Layer Neural Network ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/two_layer_net.ipynb))
+    - Q5: Higher Level Representations: Image Features ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/features.ipynb))
     - Q6: Cool Bonus: Do something extra!
 * [**Assignment 2**](http://cs231n.github.io/assignments2017/assignment2)
 * [**Assignment 3**](http://cs231n.github.io/assignments2017/assignment3)
