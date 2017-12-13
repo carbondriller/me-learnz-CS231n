@@ -13,7 +13,19 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q5: Higher Level Representations: Image Features ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/features.ipynb))
     - Q6: Cool Bonus: Do something extra!
 * [**Assignment 2**](http://cs231n.github.io/assignments2017/assignment2)
+    - Q1: Fully-connected Neural Network
+    - Q2: Batch Normalization 
+    - Q3: Dropout 
+    - Q4: Convolutional Networks
+    - Q5: PyTorch / TensorFlow on CIFAR-10
+    - Q6: Do something extra!
 * [**Assignment 3**](http://cs231n.github.io/assignments2017/assignment3)
+    - Q1: Image Captioning with Vanilla RNNs
+    - Q2: Training a Support Vector Machine
+    - Q3: Implement a Softmax classifier
+    - Q4: Two-Layer Neural Network
+    - Q5: Higher Level Representations: Image Features
+    - Q6: Cool Bonus: Do something extra!
 
 ## Links
 
