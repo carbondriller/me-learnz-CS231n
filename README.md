@@ -23,3 +23,10 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
 ## Credits
 
 * [lightaime's solutions](https://github.com/lightaime/cs231n): I used these to verify my solutions and pull me out when stuck
+
+## Notes
+
+* I'm using [Anaconda](https://www.anaconda.com/distribution/) Python distribution (3.6).
+* To run the assignments notebooks I use `jupyter notebook`.
+* Manually resolved errors (xrange, ...) and installed missing packages by `conda install ...`
+* I didn't mess with virtualenvs and requitements.txt since it was broken when I tried it.
