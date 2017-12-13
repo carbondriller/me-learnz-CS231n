@@ -30,7 +30,7 @@ def extract_features(imgs, feature_fns, verbose=False):
   # Use the first image to determine feature dimensions
   feature_dims = []
   first_image_features = []
-  for feature_fn in feature_fns:
+  for feature_fn in feature_fns:    
     feats = feature_fn(imgs[0].squeeze())
     assert len(feats.shape) == 1, 'Feature functions must be one-dimensional'
     feature_dims.append(feats.size)
@@ -117,7 +117,8 @@ def hog_feature(im):
     # select magnitudes for those orientations
     cond2 = temp_ori > 0
     temp_mag = np.where(cond2, grad_mag, 0)
-    orientation_histogram[:,:,i] = uniform_filter(temp_mag, size=(cx, cy))[cx/2::cx, cy/2::cy].T
+    # Fixed a bug here. cx/2 is float => needs to be int(cx/2)
+    orientation_histogram[:,:,i] = uniform_filter(temp_mag, size=(cx, cy))[int(cx/2)::cx, int(cy/2)::cy].T
 
   return orientation_histogram.ravel()
 
