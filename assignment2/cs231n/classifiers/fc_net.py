@@ -103,7 +103,6 @@ class TwoLayerNet(object):
         ############################################################################
         W1, b1 = self.params['W1'], self.params['b1']
         W2, b2 = self.params['W2'], self.params['b2']
-
         
         loss, dscores = softmax_loss(scores, y)
         loss += 0.5 * self.reg * np.sum(np.square(W1))
@@ -182,10 +181,13 @@ class FullyConnectedNet(object):
         # beta2, etc. Scale parameters should be initialized to one and shift      #
         # parameters should be initialized to zero.                                #
         ############################################################################
-        dims = input_dim + hidden_dims + num_classes
-        for L in range(num_layers):
-            self.params['W{}'.format(L+1)] = np.random.normal(0, weight_scale, (dims[L], dims[L+1]))
-            self.params['b{}'.format(L+1)] = np.zeros(dims[L+1])
+        dims = [input_dim] + hidden_dims + [num_classes]
+        # len(dims) = self.num_layers + 1 = len(hidden_dims) + 1 + 1
+        for k in range(self.num_layers):
+            Wname = 'W{}'.format(k+1) # Indexing names from 1 instead of 0
+            bname = 'b{}'.format(k+1) # Indexing names from 1 instead of 0
+            self.params[Wname] = np.random.normal(0, weight_scale, (dims[k], dims[k+1]))
+            self.params[bname] = np.zeros(dims[k+1])        
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
@@ -243,7 +245,25 @@ class FullyConnectedNet(object):
         # self.bn_params[1] to the forward pass for the second batch normalization #
         # layer, etc.                                                              #
         ############################################################################
-        pass
+        
+        # Number of hidden layers
+        num_hidden_layers = self.num_layers - 1
+        # Dictionary mapping hidden layer output names ('h1', 'h2', ..., 'hk')
+        # to a corresponding h_cache
+        h_caches = {}
+        # Forward pass hidden layers
+        h = X
+        for k in range(num_hidden_layers):
+            hname = 'h{}'.format(k+1) # Indexing names from 1 instead of 0
+            Wname = 'W{}'.format(k+1) # Indexing names from 1 instead of 0
+            bname = 'b{}'.format(k+1) # Indexing names from 1 instead of 0
+            h, h_cache = affine_relu_forward(h, self.params[Wname], self.params[bname])
+            h_caches[hname] = h_cache
+        # Compute scores (last output layer)
+        Wname = 'W{}'.format(self.num_layers)
+        bname = 'b{}'.format(self.num_layers)
+        scores, scores_cache = affine_forward(h, self.params[Wname], self.params[bname])
+        
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
@@ -266,7 +286,29 @@ class FullyConnectedNet(object):
         # automated tests, make sure that your L2 regularization includes a factor #
         # of 0.5 to simplify the expression for the gradient.                      #
         ############################################################################
-        pass
+        
+        # Compute loss
+        loss, dscores = softmax_loss(scores, y)
+        # Regularize
+        for k in range(self.num_layers):
+            Wname = 'W{}'.format(k+1) # Indexing names from 1 instead of 0            
+            loss += 0.5 * self.reg * np.sum(np.square(self.params[Wname]))
+
+        # Backward pass output layer
+        dx, dw, db = affine_backward(dscores, scores_cache)
+        Wname = 'W{}'.format(self.num_layers)
+        bname = 'b{}'.format(self.num_layers)
+        grads[Wname] = dw + self.reg * self.params[Wname]
+        grads[bname] = db
+        # Backward pass hidden layers
+        for k in range(num_hidden_layers, 0, -1):
+            hname = 'h{}'.format(k)
+            dx, dw, db = affine_relu_backward(dx, h_caches[hname])
+            Wname = 'W{}'.format(k)
+            bname = 'b{}'.format(k)            
+            grads[Wname] = dw + self.reg * self.params[Wname]
+            grads[bname] = db
+            
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
