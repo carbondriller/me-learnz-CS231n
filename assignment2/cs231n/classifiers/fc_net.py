@@ -124,6 +124,7 @@ class TwoLayerNet(object):
 
 
 ####################################################################################
+# Fully connected net
 ####################################################################################
 
 
@@ -265,7 +266,7 @@ class FullyConnectedNet(object):
         # Forward pass hidden layers
         h = X
         for k in range(num_hidden_layers):
-            s = str(k+1) # Indexing names from 1 instead of 0
+            s = str(k+1) # Indexing names from 1 instead of 0            
             if self.use_batchnorm:
                 gamma = self.params['gamma' + s]
                 beta = self.params['beta' + s]
@@ -274,6 +275,13 @@ class FullyConnectedNet(object):
                                                     gamma, beta, bn_param)
             else:
                 h, h_cache = affine_relu_forward(h, self.params['W' + s], self.params['b' + s])
+            # Optional dropout    
+            if self.use_dropout:                
+                p = self.dropout_param['p']
+                dpo, dpo_cache = dropout_forward(h, self.dropout_param)
+                h = dpo
+                h_cache = (*h_cache, dpo_cache)                
+            # Update caches
             h_caches['h' + s] = h_cache
             
         # Compute scores (last output layer)
@@ -319,6 +327,12 @@ class FullyConnectedNet(object):
         # Backward pass hidden layers
         for k in range(num_hidden_layers, 0, -1):
             s = str(k)
+            # Optional dropout
+            if self.use_dropout:                
+                dpo_cache = h_caches['h' + s][-1]  # Last one
+                dx = dropout_backward(dx, dpo_cache)
+                h_caches['h' + s] = h_caches['h' + s][:-1]  # Remove dropout cache from h_caches                
+            # The rest
             if self.use_batchnorm:
                 dx, dw, db, dgamma, dbeta = affine_bn_relu_backward(dx, h_caches['h' + s])
                 grads['gamma' + s] = dgamma
