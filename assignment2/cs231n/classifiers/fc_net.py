@@ -123,6 +123,10 @@ class TwoLayerNet(object):
         return loss, grads
 
 
+####################################################################################
+####################################################################################
+
+
 class FullyConnectedNet(object):
     """
     A fully-connected neural network with an arbitrary number of hidden layers,
@@ -181,13 +185,19 @@ class FullyConnectedNet(object):
         # beta2, etc. Scale parameters should be initialized to one and shift      #
         # parameters should be initialized to zero.                                #
         ############################################################################
+        
         dims = [input_dim] + hidden_dims + [num_classes]
         # len(dims) = self.num_layers + 1 = len(hidden_dims) + 1 + 1
+        
         for k in range(self.num_layers):
-            Wname = 'W{}'.format(k+1) # Indexing names from 1 instead of 0
-            bname = 'b{}'.format(k+1) # Indexing names from 1 instead of 0
-            self.params[Wname] = np.random.normal(0, weight_scale, (dims[k], dims[k+1]))
-            self.params[bname] = np.zeros(dims[k+1])        
+            s = str(k+1) # Indexing names from 1 instead of 0
+            self.params['W' + s] = np.random.normal(0, weight_scale, (dims[k], dims[k+1]))
+            self.params['b' + s] = np.zeros(dims[k+1])
+            # Batch normalization (the last layer is affine and does not have BN)
+            if self.use_batchnorm and (k < len(hidden_dims)):
+                self.params['gamma' + s] = np.ones(dims[k+1])
+                self.params['beta' + s] = np.zeros(dims[k+1])
+            
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
@@ -251,18 +261,24 @@ class FullyConnectedNet(object):
         # Dictionary mapping hidden layer output names ('h1', 'h2', ..., 'hk')
         # to a corresponding h_cache
         h_caches = {}
+        
         # Forward pass hidden layers
         h = X
         for k in range(num_hidden_layers):
-            hname = 'h{}'.format(k+1) # Indexing names from 1 instead of 0
-            Wname = 'W{}'.format(k+1) # Indexing names from 1 instead of 0
-            bname = 'b{}'.format(k+1) # Indexing names from 1 instead of 0
-            h, h_cache = affine_relu_forward(h, self.params[Wname], self.params[bname])
-            h_caches[hname] = h_cache
+            s = str(k+1) # Indexing names from 1 instead of 0
+            if self.use_batchnorm:
+                gamma = self.params['gamma' + s]
+                beta = self.params['beta' + s]
+                bn_param = self.bn_params[k]
+                h, h_cache = affine_bn_relu_forward(h, self.params['W' + s], self.params['b' + s],
+                                                    gamma, beta, bn_param)
+            else:
+                h, h_cache = affine_relu_forward(h, self.params['W' + s], self.params['b' + s])
+            h_caches['h' + s] = h_cache
+            
         # Compute scores (last output layer)
-        Wname = 'W{}'.format(self.num_layers)
-        bname = 'b{}'.format(self.num_layers)
-        scores, scores_cache = affine_forward(h, self.params[Wname], self.params[bname])
+        s = str(self.num_layers)
+        scores, scores_cache = affine_forward(h, self.params['W' + s], self.params['b' + s])
         
         ############################################################################
         #                             END OF YOUR CODE                             #
@@ -291,26 +307,78 @@ class FullyConnectedNet(object):
         loss, dscores = softmax_loss(scores, y)
         # Regularize
         for k in range(self.num_layers):
-            Wname = 'W{}'.format(k+1) # Indexing names from 1 instead of 0            
-            loss += 0.5 * self.reg * np.sum(np.square(self.params[Wname]))
+            s = str(k+1) # Indexing names from 1 instead of 0
+            loss += 0.5 * self.reg * np.sum(np.square(self.params['W' + s]))
 
         # Backward pass output layer
         dx, dw, db = affine_backward(dscores, scores_cache)
-        Wname = 'W{}'.format(self.num_layers)
-        bname = 'b{}'.format(self.num_layers)
-        grads[Wname] = dw + self.reg * self.params[Wname]
-        grads[bname] = db
+        s = str(self.num_layers)
+        grads['W' + s] = dw + self.reg * self.params['W' + s]
+        grads['b' + s] = db
+        
         # Backward pass hidden layers
         for k in range(num_hidden_layers, 0, -1):
-            hname = 'h{}'.format(k)
-            dx, dw, db = affine_relu_backward(dx, h_caches[hname])
-            Wname = 'W{}'.format(k)
-            bname = 'b{}'.format(k)            
-            grads[Wname] = dw + self.reg * self.params[Wname]
-            grads[bname] = db
+            s = str(k)
+            if self.use_batchnorm:
+                dx, dw, db, dgamma, dbeta = affine_bn_relu_backward(dx, h_caches['h' + s])
+                grads['gamma' + s] = dgamma
+                grads['beta' + s] = dbeta
+            else:
+                dx, dw, db = affine_relu_backward(dx, h_caches['h' + s])                        
+            grads['W' + s] = dw + self.reg * self.params['W' + s]
+            grads['b' + s] = db
             
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
 
         return loss, grads
+
+    
+####################################################################################
+# Convenience multi-layer functions
+####################################################################################
+    
+    
+def affine_bn_relu_forward(x, w, b, gamma, beta, bn_param):
+    """
+    Convenience layer that perorms an affine transform followed by Batch Normalization
+    and a ReLU.
+
+    Inputs:
+    - x: Input to the affine layer
+    - w, b: Weights for the affine layer
+    - gamma, beta: Parameters for the bn layer
+    - bn_param: Dictionary with parameters for bn. It has the following keys:
+      - mode: 'train' or 'test'; required
+      - eps: Constant for numeric stability
+      - momentum: Constant for running mean / variance.
+      - running_mean: Array of shape (D,) giving running mean of features
+      - running_var Array of shape (D,) giving running variance of features
+
+    Returns a tuple of:
+    - out: Output from the ReLU
+    - cache: Object to give to the backward pass
+    """
+    
+    a, fc_cache     = affine_forward(x, w, b)    
+    bn, bn_cache    = batchnorm_forward(a, gamma, beta, bn_param)
+    out, relu_cache = relu_forward(bn)
+    
+    cache = (fc_cache, bn_cache, relu_cache)
+    
+    return out, cache
+
+
+def affine_bn_relu_backward(dout, cache):
+    """
+    Backward pass for the affine-bn-relu convenience layer
+    """
+    
+    fc_cache, bn_cache, relu_cache = cache
+    
+    da                 = relu_backward(dout, relu_cache)
+    dbn, dgamma, dbeta = batchnorm_backward(da, bn_cache)
+    dx, dw, db         = affine_backward(dbn, fc_cache)
+    
+    return dx, dw, db, dgamma, dbeta
