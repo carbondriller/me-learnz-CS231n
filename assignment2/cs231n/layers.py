@@ -396,7 +396,9 @@ def dropout_forward(x, dropout_param):
         # Store the dropout mask in the mask variable.                        #
         #######################################################################
         
-        mask = (np.random.rand(*x.shape) < p) / p
+        # I inverted the dropout p to be 1-p. Using 1-p is actual dropout, 
+        # otherwise it is 'keepin'. p is the percentage of values kept.
+        mask = (np.random.rand(*x.shape) < (1-p)) / (1-p)
         out = x * mask
         
         #######################################################################
