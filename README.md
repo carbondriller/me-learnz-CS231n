@@ -13,7 +13,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q5: Higher Level Representations: Image Features ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/features.ipynb))
     - Q6: Cool Bonus: Do something extra!
 * [**Assignment 2**](http://cs231n.github.io/assignments2017/assignment2)
-    - Q1: Fully-connected Neural Network ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/FullyConnectedNets.ipynb)
+    - Q1: Fully-connected Neural Network ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/FullyConnectedNets.ipynb))
     - Q2: Batch Normalization ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/BatchNormalization.ipynb))
     - Q3: Dropout 
     - Q4: Convolutional Networks
