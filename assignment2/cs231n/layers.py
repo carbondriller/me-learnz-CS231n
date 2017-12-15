@@ -477,7 +477,38 @@ def conv_forward_naive(x, w, b, conv_param):
     # TODO: Implement the convolutional forward pass.                         #
     # Hint: you can use the function np.pad for padding.                      #
     ###########################################################################
-    pass
+    
+    # Unpack sizes
+    N, C, H, W = x.shape
+    F, C, HH, WW = w.shape
+    P = conv_param['pad']
+    S = conv_param['stride']        
+    Hout = 1 + (H + 2 * P - HH) / S
+    Wout = 1 + (W + 2 * P - WW) / S
+    
+    if any([int(Hout) == Hout, int(Wout) == Wout]):
+        Hout = int(Hout)
+        Wout = int(Wout)
+    else:
+        raise ValueError("Non-integer output size: {}x{}".format(Hout, Wout))
+        
+    # Pad: 0s added to   N      C      H      W   axis, to the (beginning, end)
+    x_pad = np.pad(x, ((0,0), (0,0), (P,P), (P,P)), 'constant', constant_values=0)
+    
+    # Compute layer output
+    out = np.zeros((N, F, Hout, Wout))
+    for n in range(N):
+        img = x_pad[n, ...]  # One image (C, H, W)
+        for f in range(F):
+            filter = w[f, ...]  # One filter layer (C, HH, WW)
+            bf = b[f]           # Bias scalar (1)
+            for ho in range(Hout):
+                for wo in range(Wout):
+                    # Img slice through all channels with space dims equal to filter space dims
+                    img_deep_slice = img[:, ho*S : ho*S+HH, wo*S : wo*S+WW]  # (C, HH, WW)
+                    # Dot product image slice with filter layer and add bias
+                    out[n, f, ho, wo] = np.sum(img_deep_slice * filter) + bf
+    
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################
