@@ -541,8 +541,7 @@ def conv_backward_naive(dout, cache):
     # http://cs231n.github.io/convolutional-networks/
   
     # Unpack variables
-    x, w, b, conv_param = cache
-  
+    x, w, b, conv_param = cache  
     N, C, H, W = x.shape
     F, _, HH, WW = w.shape
     S = conv_param['stride']
@@ -598,17 +597,52 @@ def max_pool_forward_naive(x, pool_param):
 
     Returns a tuple of:
     - out: Output data
-    - cache: (x, pool_param)
+    - cache: (x, act) ## I changed this
     """
     out = None
     ###########################################################################
     # TODO: Implement the max pooling forward pass                            #
     ###########################################################################
-    pass
+    
+    # Unpack variables
+    N, C, H, W = x.shape
+    H_pool = pool_param['pool_height']
+    W_pool = pool_param['pool_width']
+    S = pool_param['stride']        
+    Hout = (H - H_pool) / S + 1
+    Wout = (W - W_pool) / S + 1
+    
+    # Hout and Wout are floats after /
+    if all([int(Hout) == Hout, int(Wout) == Wout]):
+        Hout = int(Hout)
+        Wout = int(Wout)
+    else:
+        raise ValueError("Non-integer output size: {}x{}".format(Hout, Wout))
+
+    out = np.zeros((N, C, Hout, Wout))
+    # Keeping track of activation indexes, contains a (act_h, act_w) tuple for each coordinate of out
+    act = np.zeros_like(out, dtype=np.ndarray)
+    
+    for n in range(N):
+        img = x[n, ...]  # One image (C, H, W)
+        for ho in range(Hout):
+            for wo in range(Wout):
+                # Img slice through all channels with space dims equal to (H_pool, W_pool)
+                img_slice = img[:, ho*S : ho*S+H_pool, wo*S : wo*S+W_pool]  # (C, H_pool, W_pool)
+                for c in range(C):
+                    max_val = np.max(img_slice[c, ...])
+                    max_idx = np.argmax(img_slice[c, ...])
+                    
+                    out[n, c, ho, wo] = max_val
+                    
+                    # Activation locations for backpropagation
+                    act_h, act_w = np.array([ho*S, wo*S]) + np.unravel_index(max_idx, (H_pool, W_pool))
+                    act[n, c, ho, wo] = np.array([act_h, act_w])
+    
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################
-    cache = (x, pool_param)
+    cache = (x, act) ## I changed this
     return out, cache
 
 
@@ -618,7 +652,7 @@ def max_pool_backward_naive(dout, cache):
 
     Inputs:
     - dout: Upstream derivatives
-    - cache: A tuple of (x, pool_param) as in the forward pass.
+    - cache: A tuple of (x, act) where act is the activation map ## I changed this
 
     Returns:
     - dx: Gradient with respect to x
@@ -627,7 +661,20 @@ def max_pool_backward_naive(dout, cache):
     ###########################################################################
     # TODO: Implement the max pooling backward pass                           #
     ###########################################################################
-    pass
+    
+    # Unpack variables
+    x, act = cache
+    N, C, _, _ = x.shape
+    
+    dx = np.zeros_like(x)
+        
+    # Route dout to the max values
+    for n in range(N):
+        for c in range(C):
+            for (act_idx, dout_value) in zip(act[n, c, ...].flatten(), dout[n, c, ...].flatten()):
+                act_h, act_w = act_idx
+                dx[n, c, act_h, act_w] = dout_value
+    
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################
