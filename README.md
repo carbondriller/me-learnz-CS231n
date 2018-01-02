@@ -16,7 +16,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q1: Fully-connected Neural Network ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/FullyConnectedNets.ipynb))
     - Q2: Batch Normalization ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/BatchNormalization.ipynb))
     - Q3: Dropout ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/Dropout.ipynb))
-    - Q4: Convolutional Networks
+    - Q4: Convolutional Networks ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/ConvolutionalNetworks.ipynb))
     - Q5: PyTorch / TensorFlow on CIFAR-10
     - Q6: Do something extra!
 * [**Assignment 3**](http://cs231n.github.io/assignments2017/assignment3)
