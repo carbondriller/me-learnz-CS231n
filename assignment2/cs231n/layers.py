@@ -480,13 +480,14 @@ def conv_forward_naive(x, w, b, conv_param):
     
     # Unpack sizes
     N, C, H, W = x.shape
-    F, C, HH, WW = w.shape
+    F, _, HH, WW = w.shape
     P = conv_param['pad']
     S = conv_param['stride']        
     Hout = 1 + (H + 2 * P - HH) / S
     Wout = 1 + (W + 2 * P - WW) / S
     
-    if any([int(Hout) == Hout, int(Wout) == Wout]):
+    # Hout and Wout are floats after /
+    if all([int(Hout) == Hout, int(Wout) == Wout]):
         Hout = int(Hout)
         Wout = int(Wout)
     else:
@@ -533,7 +534,51 @@ def conv_backward_naive(dout, cache):
     ###########################################################################
     # TODO: Implement the convolutional backward pass.                        #
     ###########################################################################
-    pass
+    
+    # Adapted from lightaime's solutions:
+    # https://github.com/lightaime/cs231n/blob/master/assignment2/cs231n/layers.py#L449
+    # Backpropagation of convolution is also a convolution, see:
+    # http://cs231n.github.io/convolutional-networks/
+  
+    # Unpack variables
+    x, w, b, conv_param = cache
+  
+    N, C, H, W = x.shape
+    F, _, HH, WW = w.shape
+    S = conv_param['stride']
+    P = conv_param['pad']
+    Hout = 1 + (H + 2 * P - HH) / S
+    Wout = 1 + (W + 2 * P - WW) / S
+    
+    # Hout and Wout are floats after /
+    if all([int(Hout) == Hout, int(Wout) == Wout]):
+        Hout = int(Hout)
+        Wout = int(Wout)
+    else:
+        raise ValueError("Non-integer output size: {}x{}".format(Hout, Wout))
+  
+    # Pad: 0s added to   N      C      H      W   axis, to the (beginning, end)
+    x_pad = np.pad(x, ((0,0), (0,0), (P,P), (P,P)), 'constant', constant_values=0)
+    
+    dx = np.zeros_like(x)
+    dx_pad = np.zeros_like(x_pad)
+    dw = np.zeros_like(w)
+    db = np.zeros_like(b)
+  
+    # Compute gradients
+    db = np.sum(dout, axis = (0,2,3))
+        
+    for i in range(Hout):
+        for j in range(Wout):
+            x_pad_sub = x_pad[:, :, i*S:i*S+HH, j*S:j*S+WW]
+            for k in range(F): # compute dw
+                dw[k ,: ,: ,:] += \
+                  np.sum(x_pad_sub * (dout[:, k, i, j])[:, None, None, None], axis=0)
+            for n in range(N): # compute dx_pad (convolution)
+                dx_pad[n, :, i*S:i*S+HH, j*S:j*S+WW] += \
+                  np.sum((w[:, :, :, :] * (dout[n, :, i, j])[:,None ,None, None]), axis=0)
+    dx = dx_pad[:,:,P:-P,P:-P]
+    
     ###########################################################################
     #                             END OF YOUR CODE                            #
     ###########################################################################
