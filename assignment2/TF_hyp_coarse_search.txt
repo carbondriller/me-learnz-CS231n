@@ -1,0 +1,3609 @@
+Random subset size:
+X_train: (9800, 32, 32, 3)
+y_train: (9800,)
+
+Training
+
+--------------------------------------------------------------------------------
+Hyperparameters 1/80: lr = 1.00e-04 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 2.531, accuracy = 0.094
+Iteration  50:  minibatch training loss = 1.944, accuracy = 0.344
+Iteration 100:  minibatch training loss = 2.013, accuracy = 0.297
+Iteration 150:  minibatch training loss = 1.964, accuracy = 0.328
+Loss: 2.031 | Accuracy: 0.270 (training, average)
+Loss: 1.929 | Accuracy: 0.337 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.850, accuracy = 0.328
+Iteration  50:  minibatch training loss = 1.662, accuracy = 0.453
+Iteration 100:  minibatch training loss = 1.814, accuracy = 0.391
+Iteration 150:  minibatch training loss = 1.831, accuracy = 0.375
+Loss: 1.761 | Accuracy: 0.391 (training, average)
+Loss: 1.721 | Accuracy: 0.401 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.731, accuracy = 0.422
+Iteration  50:  minibatch training loss = 1.552, accuracy = 0.500
+Iteration 100:  minibatch training loss = 1.733, accuracy = 0.422
+Iteration 150:  minibatch training loss = 1.759, accuracy = 0.375
+Loss: 1.660 | Accuracy: 0.428 (training, average)
+Loss: 1.621 | Accuracy: 0.444 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.665, accuracy = 0.500
+Iteration  50:  minibatch training loss = 1.484, accuracy = 0.562
+Iteration 100:  minibatch training loss = 1.680, accuracy = 0.406
+Iteration 150:  minibatch training loss = 1.709, accuracy = 0.375
+Loss: 1.593 | Accuracy: 0.457 (training, average)
+Loss: 1.560 | Accuracy: 0.479 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.609, accuracy = 0.531
+Iteration  50:  minibatch training loss = 1.432, accuracy = 0.578
+Iteration 100:  minibatch training loss = 1.634, accuracy = 0.406
+Iteration 150:  minibatch training loss = 1.667, accuracy = 0.391
+Loss: 1.539 | Accuracy: 0.480 (training, average)
+Loss: 1.514 | Accuracy: 0.483 (validation)
+
+Done in 672s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 2/80: lr = 1.00e-04 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.731, accuracy = 0.391
+Iteration  50:  minibatch training loss = 1.745, accuracy = 0.266
+Iteration 100:  minibatch training loss = 1.609, accuracy = 0.469
+Iteration 150:  minibatch training loss = 1.691, accuracy = 0.406
+Loss: 1.693 | Accuracy: 0.415 (training, average)
+Loss: 1.625 | Accuracy: 0.403 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.655, accuracy = 0.406
+Iteration  50:  minibatch training loss = 1.722, accuracy = 0.406
+Iteration 100:  minibatch training loss = 1.552, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.630, accuracy = 0.453
+Loss: 1.632 | Accuracy: 0.430 (training, average)
+Loss: 1.595 | Accuracy: 0.445 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.608, accuracy = 0.438
+Iteration  50:  minibatch training loss = 1.676, accuracy = 0.391
+Iteration 100:  minibatch training loss = 1.521, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.565, accuracy = 0.469
+Loss: 1.595 | Accuracy: 0.441 (training, average)
+Loss: 1.571 | Accuracy: 0.433 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.598, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.631, accuracy = 0.406
+Iteration 100:  minibatch training loss = 1.486, accuracy = 0.422
+Iteration 150:  minibatch training loss = 1.557, accuracy = 0.469
+Loss: 1.566 | Accuracy: 0.457 (training, average)
+Loss: 1.556 | Accuracy: 0.434 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.582, accuracy = 0.484
+Iteration  50:  minibatch training loss = 1.613, accuracy = 0.422
+Iteration 100:  minibatch training loss = 1.466, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.528, accuracy = 0.453
+Loss: 1.543 | Accuracy: 0.460 (training, average)
+Loss: 1.545 | Accuracy: 0.458 (validation)
+
+Done in 674s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 3/80: lr = 1.00e-04 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.309, accuracy = 0.531
+Iteration  50:  minibatch training loss = 1.485, accuracy = 0.469
+Iteration 100:  minibatch training loss = 1.412, accuracy = 0.469
+Iteration 150:  minibatch training loss = 1.557, accuracy = 0.453
+Loss: 1.433 | Accuracy: 0.501 (training, average)
+Loss: 1.567 | Accuracy: 0.448 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.300, accuracy = 0.562
+Iteration  50:  minibatch training loss = 1.460, accuracy = 0.516
+Iteration 100:  minibatch training loss = 1.383, accuracy = 0.469
+Iteration 150:  minibatch training loss = 1.529, accuracy = 0.469
+Loss: 1.400 | Accuracy: 0.518 (training, average)
+Loss: 1.435 | Accuracy: 0.510 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.279, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.446, accuracy = 0.516
+Iteration 100:  minibatch training loss = 1.359, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.508, accuracy = 0.469
+Loss: 1.375 | Accuracy: 0.529 (training, average)
+Loss: 1.395 | Accuracy: 0.524 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.260, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.433, accuracy = 0.531
+Iteration 100:  minibatch training loss = 1.337, accuracy = 0.484
+Iteration 150:  minibatch training loss = 1.488, accuracy = 0.469
+Loss: 1.353 | Accuracy: 0.538 (training, average)
+Loss: 1.372 | Accuracy: 0.534 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.243, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.420, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.318, accuracy = 0.484
+Iteration 150:  minibatch training loss = 1.470, accuracy = 0.469
+Loss: 1.333 | Accuracy: 0.545 (training, average)
+Loss: 1.357 | Accuracy: 0.545 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 4/80: lr = 1.00e-04 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.551, accuracy = 0.484
+Iteration  50:  minibatch training loss = 1.568, accuracy = 0.422
+Iteration 100:  minibatch training loss = 1.481, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.437, accuracy = 0.438
+Loss: 1.482 | Accuracy: 0.488 (training, average)
+Loss: 1.480 | Accuracy: 0.441 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.467, accuracy = 0.484
+Iteration  50:  minibatch training loss = 1.573, accuracy = 0.391
+Iteration 100:  minibatch training loss = 1.504, accuracy = 0.484
+Iteration 150:  minibatch training loss = 1.381, accuracy = 0.531
+Loss: 1.455 | Accuracy: 0.497 (training, average)
+Loss: 1.454 | Accuracy: 0.485 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.447, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.512, accuracy = 0.484
+Iteration 100:  minibatch training loss = 1.504, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.370, accuracy = 0.516
+Loss: 1.435 | Accuracy: 0.504 (training, average)
+Loss: 1.428 | Accuracy: 0.484 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.485, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.506, accuracy = 0.422
+Iteration 100:  minibatch training loss = 1.460, accuracy = 0.469
+Iteration 150:  minibatch training loss = 1.371, accuracy = 0.500
+Loss: 1.419 | Accuracy: 0.502 (training, average)
+Loss: 1.434 | Accuracy: 0.494 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.364, accuracy = 0.500
+Iteration  50:  minibatch training loss = 1.445, accuracy = 0.484
+Iteration 100:  minibatch training loss = 1.466, accuracy = 0.453
+Iteration 150:  minibatch training loss = 1.354, accuracy = 0.484
+Loss: 1.408 | Accuracy: 0.506 (training, average)
+Loss: 1.424 | Accuracy: 0.497 (validation)
+
+Done in 670s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 5/80: lr = 1.00e-04 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.189, accuracy = 0.656
+Iteration  50:  minibatch training loss = 1.188, accuracy = 0.609
+Iteration 100:  minibatch training loss = 1.088, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.074, accuracy = 0.672
+Loss: 1.298 | Accuracy: 0.548 (training, average)
+Loss: 1.457 | Accuracy: 0.491 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.135, accuracy = 0.688
+Iteration  50:  minibatch training loss = 1.169, accuracy = 0.656
+Iteration 100:  minibatch training loss = 1.066, accuracy = 0.672
+Iteration 150:  minibatch training loss = 1.059, accuracy = 0.688
+Loss: 1.269 | Accuracy: 0.562 (training, average)
+Loss: 1.333 | Accuracy: 0.549 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.113, accuracy = 0.688
+Iteration  50:  minibatch training loss = 1.148, accuracy = 0.656
+Iteration 100:  minibatch training loss = 1.050, accuracy = 0.672
+Iteration 150:  minibatch training loss = 1.046, accuracy = 0.719
+Loss: 1.249 | Accuracy: 0.571 (training, average)
+Loss: 1.304 | Accuracy: 0.557 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.092, accuracy = 0.688
+Iteration  50:  minibatch training loss = 1.128, accuracy = 0.625
+Iteration 100:  minibatch training loss = 1.030, accuracy = 0.672
+Iteration 150:  minibatch training loss = 1.035, accuracy = 0.750
+Loss: 1.231 | Accuracy: 0.579 (training, average)
+Loss: 1.290 | Accuracy: 0.558 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.073, accuracy = 0.688
+Iteration  50:  minibatch training loss = 1.110, accuracy = 0.625
+Iteration 100:  minibatch training loss = 1.012, accuracy = 0.688
+Iteration 150:  minibatch training loss = 1.023, accuracy = 0.750
+Loss: 1.214 | Accuracy: 0.586 (training, average)
+Loss: 1.278 | Accuracy: 0.566 (validation)
+
+Done in 662s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 6/80: lr = 1.00e-04 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.444, accuracy = 0.531
+Iteration  50:  minibatch training loss = 1.275, accuracy = 0.594
+Iteration 100:  minibatch training loss = 1.432, accuracy = 0.469
+Iteration 150:  minibatch training loss = 1.538, accuracy = 0.453
+Loss: 1.380 | Accuracy: 0.531 (training, average)
+Loss: 1.405 | Accuracy: 0.479 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.363, accuracy = 0.516
+Iteration  50:  minibatch training loss = 1.215, accuracy = 0.578
+Iteration 100:  minibatch training loss = 1.451, accuracy = 0.438
+Iteration 150:  minibatch training loss = 1.560, accuracy = 0.406
+Loss: 1.358 | Accuracy: 0.534 (training, average)
+Loss: 1.366 | Accuracy: 0.516 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.317, accuracy = 0.562
+Iteration  50:  minibatch training loss = 1.176, accuracy = 0.656
+Iteration 100:  minibatch training loss = 1.471, accuracy = 0.469
+Iteration 150:  minibatch training loss = 1.523, accuracy = 0.484
+Loss: 1.344 | Accuracy: 0.538 (training, average)
+Loss: 1.362 | Accuracy: 0.524 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.286, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.188, accuracy = 0.594
+Iteration 100:  minibatch training loss = 1.409, accuracy = 0.516
+Iteration 150:  minibatch training loss = 1.525, accuracy = 0.422
+Loss: 1.339 | Accuracy: 0.538 (training, average)
+Loss: 1.348 | Accuracy: 0.528 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.281, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.137, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.426, accuracy = 0.484
+Iteration 150:  minibatch training loss = 1.473, accuracy = 0.453
+Loss: 1.328 | Accuracy: 0.540 (training, average)
+Loss: 1.346 | Accuracy: 0.525 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 7/80: lr = 1.00e-04 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.170, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.196, accuracy = 0.531
+Iteration 100:  minibatch training loss = 0.987, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.185, accuracy = 0.562
+Loss: 1.189 | Accuracy: 0.587 (training, average)
+Loss: 1.425 | Accuracy: 0.502 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.138, accuracy = 0.594
+Iteration  50:  minibatch training loss = 1.188, accuracy = 0.516
+Iteration 100:  minibatch training loss = 0.976, accuracy = 0.641
+Iteration 150:  minibatch training loss = 1.163, accuracy = 0.609
+Loss: 1.164 | Accuracy: 0.597 (training, average)
+Loss: 1.278 | Accuracy: 0.580 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.128, accuracy = 0.609
+Iteration  50:  minibatch training loss = 1.173, accuracy = 0.547
+Iteration 100:  minibatch training loss = 0.966, accuracy = 0.641
+Iteration 150:  minibatch training loss = 1.149, accuracy = 0.609
+Loss: 1.148 | Accuracy: 0.605 (training, average)
+Loss: 1.249 | Accuracy: 0.584 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.116, accuracy = 0.625
+Iteration  50:  minibatch training loss = 1.160, accuracy = 0.562
+Iteration 100:  minibatch training loss = 0.957, accuracy = 0.641
+Iteration 150:  minibatch training loss = 1.135, accuracy = 0.609
+Loss: 1.134 | Accuracy: 0.610 (training, average)
+Loss: 1.235 | Accuracy: 0.586 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.104, accuracy = 0.641
+Iteration  50:  minibatch training loss = 1.150, accuracy = 0.562
+Iteration 100:  minibatch training loss = 0.948, accuracy = 0.641
+Iteration 150:  minibatch training loss = 1.123, accuracy = 0.625
+Loss: 1.121 | Accuracy: 0.617 (training, average)
+Loss: 1.226 | Accuracy: 0.589 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 8/80: lr = 1.00e-04 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.350, accuracy = 0.531
+Iteration  50:  minibatch training loss = 1.169, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.282, accuracy = 0.531
+Iteration 150:  minibatch training loss = 1.240, accuracy = 0.578
+Loss: 1.310 | Accuracy: 0.544 (training, average)
+Loss: 1.350 | Accuracy: 0.511 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.389, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.130, accuracy = 0.562
+Iteration 100:  minibatch training loss = 1.272, accuracy = 0.516
+Iteration 150:  minibatch training loss = 1.254, accuracy = 0.594
+Loss: 1.291 | Accuracy: 0.558 (training, average)
+Loss: 1.338 | Accuracy: 0.534 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.429, accuracy = 0.422
+Iteration  50:  minibatch training loss = 1.109, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.248, accuracy = 0.484
+Iteration 150:  minibatch training loss = 1.184, accuracy = 0.562
+Loss: 1.283 | Accuracy: 0.551 (training, average)
+Loss: 1.315 | Accuracy: 0.547 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.352, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.097, accuracy = 0.625
+Iteration 100:  minibatch training loss = 1.223, accuracy = 0.531
+Iteration 150:  minibatch training loss = 1.188, accuracy = 0.578
+Loss: 1.264 | Accuracy: 0.555 (training, average)
+Loss: 1.318 | Accuracy: 0.522 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.380, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.099, accuracy = 0.562
+Iteration 100:  minibatch training loss = 1.214, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.172, accuracy = 0.578
+Loss: 1.268 | Accuracy: 0.559 (training, average)
+Loss: 1.313 | Accuracy: 0.551 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 9/80: lr = 1.00e-04 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.075, accuracy = 0.547
+Iteration  50:  minibatch training loss = 1.179, accuracy = 0.500
+Iteration 100:  minibatch training loss = 1.075, accuracy = 0.641
+Iteration 150:  minibatch training loss = 1.123, accuracy = 0.688
+Loss: 1.123 | Accuracy: 0.614 (training, average)
+Loss: 1.400 | Accuracy: 0.502 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.123, accuracy = 0.562
+Iteration  50:  minibatch training loss = 1.146, accuracy = 0.516
+Iteration 100:  minibatch training loss = 1.058, accuracy = 0.672
+Iteration 150:  minibatch training loss = 1.103, accuracy = 0.688
+Loss: 1.099 | Accuracy: 0.623 (training, average)
+Loss: 1.242 | Accuracy: 0.573 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.104, accuracy = 0.562
+Iteration  50:  minibatch training loss = 1.132, accuracy = 0.531
+Iteration 100:  minibatch training loss = 1.046, accuracy = 0.688
+Iteration 150:  minibatch training loss = 1.089, accuracy = 0.688
+Loss: 1.084 | Accuracy: 0.630 (training, average)
+Loss: 1.217 | Accuracy: 0.586 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.092, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.122, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.034, accuracy = 0.703
+Iteration 150:  minibatch training loss = 1.077, accuracy = 0.703
+Loss: 1.071 | Accuracy: 0.635 (training, average)
+Loss: 1.210 | Accuracy: 0.590 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.080, accuracy = 0.594
+Iteration  50:  minibatch training loss = 1.112, accuracy = 0.562
+Iteration 100:  minibatch training loss = 1.024, accuracy = 0.703
+Iteration 150:  minibatch training loss = 1.067, accuracy = 0.703
+Loss: 1.059 | Accuracy: 0.641 (training, average)
+Loss: 1.205 | Accuracy: 0.588 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 10/80: lr = 1.00e-04 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.313, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.417, accuracy = 0.391
+Iteration 100:  minibatch training loss = 1.112, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.276, accuracy = 0.578
+Loss: 1.263 | Accuracy: 0.565 (training, average)
+Loss: 1.344 | Accuracy: 0.516 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.246, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.354, accuracy = 0.469
+Iteration 100:  minibatch training loss = 1.087, accuracy = 0.594
+Iteration 150:  minibatch training loss = 1.282, accuracy = 0.516
+Loss: 1.252 | Accuracy: 0.565 (training, average)
+Loss: 1.304 | Accuracy: 0.515 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.218, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.265, accuracy = 0.500
+Iteration 100:  minibatch training loss = 1.069, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.225, accuracy = 0.547
+Loss: 1.239 | Accuracy: 0.569 (training, average)
+Loss: 1.292 | Accuracy: 0.544 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.218, accuracy = 0.547
+Iteration  50:  minibatch training loss = 1.247, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.012, accuracy = 0.641
+Iteration 150:  minibatch training loss = 1.229, accuracy = 0.516
+Loss: 1.224 | Accuracy: 0.574 (training, average)
+Loss: 1.294 | Accuracy: 0.544 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.168, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.306, accuracy = 0.500
+Iteration 100:  minibatch training loss = 1.110, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.180, accuracy = 0.531
+Loss: 1.221 | Accuracy: 0.572 (training, average)
+Loss: 1.282 | Accuracy: 0.541 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 11/80: lr = 1.00e-04 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.217, accuracy = 0.500
+Iteration  50:  minibatch training loss = 1.037, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.101, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.122, accuracy = 0.656
+Loss: 1.054 | Accuracy: 0.636 (training, average)
+Loss: 1.382 | Accuracy: 0.504 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.191, accuracy = 0.562
+Iteration  50:  minibatch training loss = 1.036, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.077, accuracy = 0.562
+Iteration 150:  minibatch training loss = 1.102, accuracy = 0.656
+Loss: 1.031 | Accuracy: 0.645 (training, average)
+Loss: 1.213 | Accuracy: 0.586 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.178, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.024, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.061, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.088, accuracy = 0.672
+Loss: 1.017 | Accuracy: 0.652 (training, average)
+Loss: 1.186 | Accuracy: 0.596 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.166, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.014, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.047, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.076, accuracy = 0.672
+Loss: 1.005 | Accuracy: 0.657 (training, average)
+Loss: 1.178 | Accuracy: 0.605 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.154, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.004, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.036, accuracy = 0.656
+Iteration 150:  minibatch training loss = 1.064, accuracy = 0.688
+Loss: 0.994 | Accuracy: 0.662 (training, average)
+Loss: 1.171 | Accuracy: 0.606 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 12/80: lr = 1.00e-04 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.420, accuracy = 0.500
+Iteration  50:  minibatch training loss = 1.461, accuracy = 0.391
+Iteration 100:  minibatch training loss = 1.185, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.141, accuracy = 0.547
+Loss: 1.221 | Accuracy: 0.582 (training, average)
+Loss: 1.301 | Accuracy: 0.549 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.486, accuracy = 0.422
+Iteration  50:  minibatch training loss = 1.344, accuracy = 0.469
+Iteration 100:  minibatch training loss = 1.189, accuracy = 0.531
+Iteration 150:  minibatch training loss = 1.150, accuracy = 0.531
+Loss: 1.209 | Accuracy: 0.582 (training, average)
+Loss: 1.294 | Accuracy: 0.554 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.383, accuracy = 0.422
+Iteration  50:  minibatch training loss = 1.381, accuracy = 0.422
+Iteration 100:  minibatch training loss = 1.218, accuracy = 0.500
+Iteration 150:  minibatch training loss = 1.148, accuracy = 0.578
+Loss: 1.195 | Accuracy: 0.580 (training, average)
+Loss: 1.293 | Accuracy: 0.537 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.425, accuracy = 0.391
+Iteration  50:  minibatch training loss = 1.410, accuracy = 0.469
+Iteration 100:  minibatch training loss = 1.280, accuracy = 0.438
+Iteration 150:  minibatch training loss = 1.125, accuracy = 0.594
+Loss: 1.191 | Accuracy: 0.581 (training, average)
+Loss: 1.249 | Accuracy: 0.560 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.432, accuracy = 0.406
+Iteration  50:  minibatch training loss = 1.327, accuracy = 0.453
+Iteration 100:  minibatch training loss = 1.180, accuracy = 0.531
+Iteration 150:  minibatch training loss = 1.089, accuracy = 0.594
+Loss: 1.183 | Accuracy: 0.589 (training, average)
+Loss: 1.269 | Accuracy: 0.553 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 13/80: lr = 1.00e-04 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.068, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.894, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.175, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.917, accuracy = 0.719
+Loss: 1.013 | Accuracy: 0.652 (training, average)
+Loss: 1.315 | Accuracy: 0.533 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.010, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.887, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.155, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.906, accuracy = 0.719
+Loss: 0.989 | Accuracy: 0.663 (training, average)
+Loss: 1.158 | Accuracy: 0.616 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.999, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.878, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.143, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.897, accuracy = 0.719
+Loss: 0.976 | Accuracy: 0.668 (training, average)
+Loss: 1.136 | Accuracy: 0.621 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.991, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.870, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.134, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.888, accuracy = 0.719
+Loss: 0.965 | Accuracy: 0.672 (training, average)
+Loss: 1.128 | Accuracy: 0.622 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.982, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.864, accuracy = 0.688
+Iteration 100:  minibatch training loss = 1.126, accuracy = 0.656
+Iteration 150:  minibatch training loss = 0.880, accuracy = 0.719
+Loss: 0.955 | Accuracy: 0.677 (training, average)
+Loss: 1.125 | Accuracy: 0.619 (validation)
+
+Done in 663s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 14/80: lr = 1.00e-04 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.160, accuracy = 0.609
+Iteration  50:  minibatch training loss = 1.253, accuracy = 0.594
+Iteration 100:  minibatch training loss = 1.214, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.174, accuracy = 0.641
+Loss: 1.191 | Accuracy: 0.586 (training, average)
+Loss: 1.284 | Accuracy: 0.539 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.993, accuracy = 0.641
+Iteration  50:  minibatch training loss = 1.268, accuracy = 0.531
+Iteration 100:  minibatch training loss = 1.241, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.138, accuracy = 0.625
+Loss: 1.169 | Accuracy: 0.593 (training, average)
+Loss: 1.256 | Accuracy: 0.561 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.003, accuracy = 0.641
+Iteration  50:  minibatch training loss = 1.193, accuracy = 0.609
+Iteration 100:  minibatch training loss = 1.308, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.136, accuracy = 0.609
+Loss: 1.166 | Accuracy: 0.597 (training, average)
+Loss: 1.261 | Accuracy: 0.561 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.010, accuracy = 0.656
+Iteration  50:  minibatch training loss = 1.173, accuracy = 0.578
+Iteration 100:  minibatch training loss = 1.281, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.090, accuracy = 0.656
+Loss: 1.154 | Accuracy: 0.598 (training, average)
+Loss: 1.232 | Accuracy: 0.566 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.932, accuracy = 0.641
+Iteration  50:  minibatch training loss = 1.277, accuracy = 0.484
+Iteration 100:  minibatch training loss = 1.261, accuracy = 0.516
+Iteration 150:  minibatch training loss = 1.074, accuracy = 0.688
+Loss: 1.148 | Accuracy: 0.601 (training, average)
+Loss: 1.259 | Accuracy: 0.557 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 15/80: lr = 1.00e-04 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.950, accuracy = 0.609
+Iteration  50:  minibatch training loss = 0.779, accuracy = 0.625
+Iteration 100:  minibatch training loss = 0.974, accuracy = 0.594
+Iteration 150:  minibatch training loss = 1.083, accuracy = 0.609
+Loss: 0.958 | Accuracy: 0.673 (training, average)
+Loss: 1.328 | Accuracy: 0.538 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 0.898, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.749, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.955, accuracy = 0.609
+Iteration 150:  minibatch training loss = 1.063, accuracy = 0.594
+Loss: 0.936 | Accuracy: 0.681 (training, average)
+Loss: 1.175 | Accuracy: 0.599 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 0.887, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.730, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.939, accuracy = 0.609
+Iteration 150:  minibatch training loss = 1.049, accuracy = 0.594
+Loss: 0.924 | Accuracy: 0.686 (training, average)
+Loss: 1.156 | Accuracy: 0.602 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 0.880, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.717, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.926, accuracy = 0.609
+Iteration 150:  minibatch training loss = 1.039, accuracy = 0.594
+Loss: 0.913 | Accuracy: 0.691 (training, average)
+Loss: 1.149 | Accuracy: 0.613 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 0.873, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.705, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.915, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.030, accuracy = 0.594
+Loss: 0.904 | Accuracy: 0.695 (training, average)
+Loss: 1.144 | Accuracy: 0.611 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 16/80: lr = 1.00e-04 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.320, accuracy = 0.422
+Iteration  50:  minibatch training loss = 1.229, accuracy = 0.641
+Iteration 100:  minibatch training loss = 1.187, accuracy = 0.609
+Iteration 150:  minibatch training loss = 1.120, accuracy = 0.609
+Loss: 1.160 | Accuracy: 0.598 (training, average)
+Loss: 1.274 | Accuracy: 0.556 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 1.249, accuracy = 0.438
+Iteration  50:  minibatch training loss = 1.282, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.211, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.093, accuracy = 0.625
+Loss: 1.132 | Accuracy: 0.604 (training, average)
+Loss: 1.265 | Accuracy: 0.555 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 1.218, accuracy = 0.547
+Iteration  50:  minibatch training loss = 1.334, accuracy = 0.578
+Iteration 100:  minibatch training loss = 1.119, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.144, accuracy = 0.625
+Loss: 1.124 | Accuracy: 0.611 (training, average)
+Loss: 1.254 | Accuracy: 0.564 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 1.263, accuracy = 0.484
+Iteration  50:  minibatch training loss = 1.185, accuracy = 0.562
+Iteration 100:  minibatch training loss = 1.080, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.106, accuracy = 0.641
+Loss: 1.123 | Accuracy: 0.611 (training, average)
+Loss: 1.234 | Accuracy: 0.565 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 1.247, accuracy = 0.484
+Iteration  50:  minibatch training loss = 1.295, accuracy = 0.547
+Iteration 100:  minibatch training loss = 1.142, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.119, accuracy = 0.641
+Loss: 1.121 | Accuracy: 0.606 (training, average)
+Loss: 1.229 | Accuracy: 0.566 (validation)
+
+Done in 670s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 17/80: lr = 1.00e-04 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.990, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.622, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.831, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.966, accuracy = 0.656
+Loss: 0.919 | Accuracy: 0.685 (training, average)
+Loss: 1.286 | Accuracy: 0.552 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.932, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.625, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.821, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.946, accuracy = 0.656
+Loss: 0.898 | Accuracy: 0.694 (training, average)
+Loss: 1.132 | Accuracy: 0.614 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.910, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.617, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.815, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.934, accuracy = 0.672
+Loss: 0.886 | Accuracy: 0.699 (training, average)
+Loss: 1.111 | Accuracy: 0.619 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.895, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.608, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.811, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.924, accuracy = 0.688
+Loss: 0.877 | Accuracy: 0.703 (training, average)
+Loss: 1.107 | Accuracy: 0.620 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.883, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.600, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.806, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.915, accuracy = 0.672
+Loss: 0.867 | Accuracy: 0.707 (training, average)
+Loss: 1.105 | Accuracy: 0.623 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 18/80: lr = 1.00e-04 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.032, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.989, accuracy = 0.609
+Iteration 100:  minibatch training loss = 1.280, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.202, accuracy = 0.609
+Loss: 1.126 | Accuracy: 0.608 (training, average)
+Loss: 1.301 | Accuracy: 0.543 (validation)
+
+Epoch 2/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.003, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.929, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.307, accuracy = 0.500
+Iteration 150:  minibatch training loss = 1.023, accuracy = 0.641
+Loss: 1.108 | Accuracy: 0.612 (training, average)
+Loss: 1.250 | Accuracy: 0.563 (validation)
+
+Epoch 3/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.011, accuracy = 0.625
+Iteration  50:  minibatch training loss = 0.872, accuracy = 0.734
+Iteration 100:  minibatch training loss = 1.205, accuracy = 0.516
+Iteration 150:  minibatch training loss = 1.201, accuracy = 0.625
+Loss: 1.097 | Accuracy: 0.617 (training, average)
+Loss: 1.224 | Accuracy: 0.571 (validation)
+
+Epoch 4/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.006, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.888, accuracy = 0.734
+Iteration 100:  minibatch training loss = 1.214, accuracy = 0.516
+Iteration 150:  minibatch training loss = 1.091, accuracy = 0.625
+Loss: 1.101 | Accuracy: 0.616 (training, average)
+Loss: 1.232 | Accuracy: 0.570 (validation)
+
+Epoch 5/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.922, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.890, accuracy = 0.641
+Iteration 100:  minibatch training loss = 1.187, accuracy = 0.594
+Iteration 150:  minibatch training loss = 1.077, accuracy = 0.719
+Loss: 1.091 | Accuracy: 0.620 (training, average)
+Loss: 1.237 | Accuracy: 0.579 (validation)
+
+Done in 669s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 19/80: lr = 1.00e-04 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 1.028, accuracy = 0.609
+Iteration  50:  minibatch training loss = 0.921, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.800, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.590, accuracy = 0.812
+Loss: 0.884 | Accuracy: 0.699 (training, average)
+Loss: 1.267 | Accuracy: 0.562 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 0.900, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.908, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.790, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.586, accuracy = 0.812
+Loss: 0.860 | Accuracy: 0.712 (training, average)
+Loss: 1.108 | Accuracy: 0.621 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 0.883, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.896, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.781, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.581, accuracy = 0.812
+Loss: 0.847 | Accuracy: 0.719 (training, average)
+Loss: 1.085 | Accuracy: 0.625 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 0.871, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.886, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.772, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.577, accuracy = 0.828
+Loss: 0.837 | Accuracy: 0.723 (training, average)
+Loss: 1.078 | Accuracy: 0.633 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 0.860, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.878, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.764, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.572, accuracy = 0.828
+Loss: 0.828 | Accuracy: 0.728 (training, average)
+Loss: 1.074 | Accuracy: 0.635 (validation)
+
+Done in 672s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 20/80: lr = 1.00e-04 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-04)
+Iteration   0:  minibatch training loss = 0.996, accuracy = 0.703
+Iteration  50:  minibatch training loss = 1.117, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.830, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.988, accuracy = 0.688
+Loss: 1.102 | Accuracy: 0.618 (training, average)
+Loss: 1.218 | Accuracy: 0.572 (validation)
+
+Epoch 2/5 (learning rate 9.600e-05)
+Iteration   0:  minibatch training loss = 0.952, accuracy = 0.719
+Iteration  50:  minibatch training loss = 1.171, accuracy = 0.547
+Iteration 100:  minibatch training loss = 0.811, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.916, accuracy = 0.672
+Loss: 1.083 | Accuracy: 0.619 (training, average)
+Loss: 1.196 | Accuracy: 0.592 (validation)
+
+Epoch 3/5 (learning rate 9.216e-05)
+Iteration   0:  minibatch training loss = 0.933, accuracy = 0.734
+Iteration  50:  minibatch training loss = 1.121, accuracy = 0.609
+Iteration 100:  minibatch training loss = 0.757, accuracy = 0.766
+Iteration 150:  minibatch training loss = 1.008, accuracy = 0.625
+Loss: 1.075 | Accuracy: 0.618 (training, average)
+Loss: 1.215 | Accuracy: 0.586 (validation)
+
+Epoch 4/5 (learning rate 8.847e-05)
+Iteration   0:  minibatch training loss = 0.934, accuracy = 0.703
+Iteration  50:  minibatch training loss = 1.102, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.805, accuracy = 0.688
+Iteration 150:  minibatch training loss = 1.003, accuracy = 0.656
+Loss: 1.074 | Accuracy: 0.625 (training, average)
+Loss: 1.191 | Accuracy: 0.569 (validation)
+
+Epoch 5/5 (learning rate 8.493e-05)
+Iteration   0:  minibatch training loss = 0.967, accuracy = 0.688
+Iteration  50:  minibatch training loss = 1.113, accuracy = 0.562
+Iteration 100:  minibatch training loss = 0.761, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.954, accuracy = 0.672
+Loss: 1.063 | Accuracy: 0.630 (training, average)
+Loss: 1.204 | Accuracy: 0.578 (validation)
+
+Done in 670s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 21/80: lr = 1.00e-03 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.760, accuracy = 0.734
+Iteration  50:  minibatch training loss = 1.155, accuracy = 0.609
+Iteration 100:  minibatch training loss = 1.118, accuracy = 0.625
+Iteration 150:  minibatch training loss = 0.837, accuracy = 0.734
+Loss: 1.045 | Accuracy: 0.635 (training, average)
+Loss: 1.640 | Accuracy: 0.441 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.016, accuracy = 0.672
+Iteration  50:  minibatch training loss = 1.076, accuracy = 0.625
+Iteration 100:  minibatch training loss = 1.017, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.742, accuracy = 0.734
+Loss: 0.979 | Accuracy: 0.661 (training, average)
+Loss: 1.471 | Accuracy: 0.511 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.970, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.993, accuracy = 0.641
+Iteration 100:  minibatch training loss = 0.997, accuracy = 0.625
+Iteration 150:  minibatch training loss = 0.694, accuracy = 0.750
+Loss: 0.935 | Accuracy: 0.676 (training, average)
+Loss: 1.586 | Accuracy: 0.490 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.956, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.970, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.981, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.651, accuracy = 0.750
+Loss: 0.900 | Accuracy: 0.689 (training, average)
+Loss: 1.581 | Accuracy: 0.488 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.895, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.907, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.950, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.594, accuracy = 0.812
+Loss: 0.865 | Accuracy: 0.703 (training, average)
+Loss: 1.611 | Accuracy: 0.506 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 22/80: lr = 1.00e-03 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.210, accuracy = 0.469
+Iteration  50:  minibatch training loss = 1.055, accuracy = 0.562
+Iteration 100:  minibatch training loss = 1.183, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.100, accuracy = 0.625
+Loss: 1.174 | Accuracy: 0.580 (training, average)
+Loss: 1.404 | Accuracy: 0.536 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.974, accuracy = 0.656
+Iteration  50:  minibatch training loss = 1.101, accuracy = 0.609
+Iteration 100:  minibatch training loss = 1.167, accuracy = 0.547
+Iteration 150:  minibatch training loss = 1.126, accuracy = 0.609
+Loss: 1.117 | Accuracy: 0.596 (training, average)
+Loss: 1.307 | Accuracy: 0.549 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.001, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.990, accuracy = 0.625
+Iteration 100:  minibatch training loss = 1.135, accuracy = 0.656
+Iteration 150:  minibatch training loss = 1.111, accuracy = 0.672
+Loss: 1.089 | Accuracy: 0.614 (training, average)
+Loss: 1.323 | Accuracy: 0.522 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.973, accuracy = 0.625
+Iteration  50:  minibatch training loss = 1.108, accuracy = 0.578
+Iteration 100:  minibatch training loss = 1.119, accuracy = 0.656
+Iteration 150:  minibatch training loss = 1.177, accuracy = 0.641
+Loss: 1.067 | Accuracy: 0.619 (training, average)
+Loss: 1.298 | Accuracy: 0.549 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.936, accuracy = 0.641
+Iteration  50:  minibatch training loss = 0.974, accuracy = 0.594
+Iteration 100:  minibatch training loss = 1.085, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.119, accuracy = 0.641
+Loss: 1.048 | Accuracy: 0.624 (training, average)
+Loss: 1.206 | Accuracy: 0.576 (validation)
+
+Done in 669s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 23/80: lr = 1.00e-03 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.017, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.753, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.736, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.985, accuracy = 0.562
+Loss: 0.872 | Accuracy: 0.697 (training, average)
+Loss: 1.668 | Accuracy: 0.451 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.990, accuracy = 0.625
+Iteration  50:  minibatch training loss = 0.706, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.665, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.917, accuracy = 0.625
+Loss: 0.826 | Accuracy: 0.713 (training, average)
+Loss: 1.425 | Accuracy: 0.523 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.929, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.698, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.632, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.856, accuracy = 0.641
+Loss: 0.782 | Accuracy: 0.730 (training, average)
+Loss: 1.455 | Accuracy: 0.524 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.897, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.624, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.584, accuracy = 0.844
+Iteration 150:  minibatch training loss = 0.829, accuracy = 0.656
+Loss: 0.750 | Accuracy: 0.744 (training, average)
+Loss: 1.519 | Accuracy: 0.514 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.848, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.589, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.566, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.794, accuracy = 0.672
+Loss: 0.715 | Accuracy: 0.758 (training, average)
+Loss: 1.431 | Accuracy: 0.525 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 24/80: lr = 1.00e-03 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.910, accuracy = 0.656
+Iteration  50:  minibatch training loss = 1.113, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.984, accuracy = 0.625
+Iteration 150:  minibatch training loss = 0.937, accuracy = 0.641
+Loss: 1.069 | Accuracy: 0.614 (training, average)
+Loss: 1.413 | Accuracy: 0.538 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.812, accuracy = 0.781
+Iteration  50:  minibatch training loss = 0.994, accuracy = 0.625
+Iteration 100:  minibatch training loss = 0.885, accuracy = 0.656
+Iteration 150:  minibatch training loss = 0.990, accuracy = 0.641
+Loss: 1.007 | Accuracy: 0.647 (training, average)
+Loss: 1.320 | Accuracy: 0.558 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.808, accuracy = 0.812
+Iteration  50:  minibatch training loss = 1.021, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.932, accuracy = 0.688
+Iteration 150:  minibatch training loss = 0.926, accuracy = 0.672
+Loss: 0.983 | Accuracy: 0.657 (training, average)
+Loss: 1.327 | Accuracy: 0.547 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.736, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.912, accuracy = 0.641
+Iteration 100:  minibatch training loss = 0.914, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.961, accuracy = 0.672
+Loss: 0.970 | Accuracy: 0.661 (training, average)
+Loss: 1.310 | Accuracy: 0.555 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.750, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.993, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.968, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.902, accuracy = 0.688
+Loss: 0.956 | Accuracy: 0.668 (training, average)
+Loss: 1.256 | Accuracy: 0.580 (validation)
+
+Done in 669s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 25/80: lr = 1.00e-03 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.538, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.594, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.829, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.880, accuracy = 0.688
+Loss: 0.756 | Accuracy: 0.742 (training, average)
+Loss: 1.576 | Accuracy: 0.484 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.533, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.585, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.744, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.852, accuracy = 0.719
+Loss: 0.699 | Accuracy: 0.769 (training, average)
+Loss: 1.395 | Accuracy: 0.549 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.461, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.563, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.679, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.813, accuracy = 0.719
+Loss: 0.663 | Accuracy: 0.783 (training, average)
+Loss: 1.358 | Accuracy: 0.563 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.421, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.536, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.642, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.796, accuracy = 0.734
+Loss: 0.632 | Accuracy: 0.796 (training, average)
+Loss: 1.369 | Accuracy: 0.564 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.409, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.503, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.616, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.714, accuracy = 0.766
+Loss: 0.606 | Accuracy: 0.808 (training, average)
+Loss: 1.417 | Accuracy: 0.552 (validation)
+
+Done in 663s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 26/80: lr = 1.00e-03 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.077, accuracy = 0.594
+Iteration  50:  minibatch training loss = 1.117, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.954, accuracy = 0.688
+Iteration 150:  minibatch training loss = 1.018, accuracy = 0.656
+Loss: 1.000 | Accuracy: 0.646 (training, average)
+Loss: 1.480 | Accuracy: 0.514 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.150, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.099, accuracy = 0.609
+Iteration 100:  minibatch training loss = 0.771, accuracy = 0.750
+Iteration 150:  minibatch training loss = 1.111, accuracy = 0.609
+Loss: 0.957 | Accuracy: 0.659 (training, average)
+Loss: 1.345 | Accuracy: 0.535 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.131, accuracy = 0.547
+Iteration  50:  minibatch training loss = 1.023, accuracy = 0.609
+Iteration 100:  minibatch training loss = 0.783, accuracy = 0.703
+Iteration 150:  minibatch training loss = 1.054, accuracy = 0.656
+Loss: 0.919 | Accuracy: 0.677 (training, average)
+Loss: 1.283 | Accuracy: 0.557 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.030, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.080, accuracy = 0.609
+Iteration 100:  minibatch training loss = 0.814, accuracy = 0.688
+Iteration 150:  minibatch training loss = 0.997, accuracy = 0.656
+Loss: 0.896 | Accuracy: 0.688 (training, average)
+Loss: 1.208 | Accuracy: 0.575 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.130, accuracy = 0.641
+Iteration  50:  minibatch training loss = 1.076, accuracy = 0.516
+Iteration 100:  minibatch training loss = 0.825, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.965, accuracy = 0.672
+Loss: 0.894 | Accuracy: 0.688 (training, average)
+Loss: 1.226 | Accuracy: 0.551 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 27/80: lr = 1.00e-03 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.855, accuracy = 0.641
+Iteration  50:  minibatch training loss = 0.856, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.719, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.776, accuracy = 0.703
+Loss: 0.657 | Accuracy: 0.780 (training, average)
+Loss: 1.369 | Accuracy: 0.557 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.769, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.840, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.683, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.700, accuracy = 0.797
+Loss: 0.599 | Accuracy: 0.808 (training, average)
+Loss: 1.295 | Accuracy: 0.563 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.700, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.792, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.638, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.639, accuracy = 0.812
+Loss: 0.555 | Accuracy: 0.827 (training, average)
+Loss: 1.310 | Accuracy: 0.564 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.654, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.774, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.601, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.581, accuracy = 0.844
+Loss: 0.522 | Accuracy: 0.841 (training, average)
+Loss: 1.349 | Accuracy: 0.570 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.624, accuracy = 0.781
+Iteration  50:  minibatch training loss = 0.745, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.544, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.554, accuracy = 0.859
+Loss: 0.493 | Accuracy: 0.851 (training, average)
+Loss: 1.341 | Accuracy: 0.575 (validation)
+
+Done in 663s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 28/80: lr = 1.00e-03 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 1.078, accuracy = 0.609
+Iteration  50:  minibatch training loss = 0.850, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.940, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.906, accuracy = 0.688
+Loss: 0.942 | Accuracy: 0.666 (training, average)
+Loss: 1.585 | Accuracy: 0.504 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.893, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.959, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.887, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.851, accuracy = 0.641
+Loss: 0.900 | Accuracy: 0.682 (training, average)
+Loss: 1.284 | Accuracy: 0.580 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.812, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.742, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.768, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.801, accuracy = 0.703
+Loss: 0.871 | Accuracy: 0.696 (training, average)
+Loss: 1.296 | Accuracy: 0.568 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.916, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.809, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.819, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.844, accuracy = 0.656
+Loss: 0.841 | Accuracy: 0.703 (training, average)
+Loss: 1.280 | Accuracy: 0.580 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.798, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.736, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.773, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.851, accuracy = 0.672
+Loss: 0.825 | Accuracy: 0.716 (training, average)
+Loss: 1.160 | Accuracy: 0.617 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 29/80: lr = 1.00e-03 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.678, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.581, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.573, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.860, accuracy = 0.750
+Loss: 0.584 | Accuracy: 0.805 (training, average)
+Loss: 1.179 | Accuracy: 0.609 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.602, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.517, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.527, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.766, accuracy = 0.781
+Loss: 0.524 | Accuracy: 0.833 (training, average)
+Loss: 1.138 | Accuracy: 0.615 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.515, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.471, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.501, accuracy = 0.859
+Iteration 150:  minibatch training loss = 0.725, accuracy = 0.797
+Loss: 0.482 | Accuracy: 0.853 (training, average)
+Loss: 1.162 | Accuracy: 0.615 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.465, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.427, accuracy = 0.891
+Iteration 100:  minibatch training loss = 0.486, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.682, accuracy = 0.828
+Loss: 0.452 | Accuracy: 0.866 (training, average)
+Loss: 1.221 | Accuracy: 0.613 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.426, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.400, accuracy = 0.891
+Iteration 100:  minibatch training loss = 0.466, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.636, accuracy = 0.844
+Loss: 0.427 | Accuracy: 0.877 (training, average)
+Loss: 1.284 | Accuracy: 0.597 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 30/80: lr = 1.00e-03 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.881, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.840, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.788, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.924, accuracy = 0.656
+Loss: 0.898 | Accuracy: 0.682 (training, average)
+Loss: 1.391 | Accuracy: 0.570 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.631, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.868, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.744, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.802, accuracy = 0.734
+Loss: 0.844 | Accuracy: 0.707 (training, average)
+Loss: 1.491 | Accuracy: 0.528 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.763, accuracy = 0.781
+Iteration  50:  minibatch training loss = 0.814, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.649, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.736, accuracy = 0.766
+Loss: 0.811 | Accuracy: 0.712 (training, average)
+Loss: 1.206 | Accuracy: 0.613 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.761, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.953, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.716, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.787, accuracy = 0.750
+Loss: 0.795 | Accuracy: 0.718 (training, average)
+Loss: 1.244 | Accuracy: 0.582 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.771, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.706, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.731, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.775, accuracy = 0.719
+Loss: 0.786 | Accuracy: 0.729 (training, average)
+Loss: 1.232 | Accuracy: 0.587 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 31/80: lr = 1.00e-03 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.573, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.529, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.413, accuracy = 0.891
+Iteration 150:  minibatch training loss = 0.616, accuracy = 0.797
+Loss: 0.507 | Accuracy: 0.839 (training, average)
+Loss: 1.248 | Accuracy: 0.593 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.430, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.434, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.365, accuracy = 0.891
+Iteration 150:  minibatch training loss = 0.525, accuracy = 0.844
+Loss: 0.444 | Accuracy: 0.867 (training, average)
+Loss: 1.163 | Accuracy: 0.627 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.390, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.388, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.329, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.475, accuracy = 0.891
+Loss: 0.398 | Accuracy: 0.888 (training, average)
+Loss: 1.154 | Accuracy: 0.634 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.349, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.367, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.309, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.440, accuracy = 0.906
+Loss: 0.368 | Accuracy: 0.901 (training, average)
+Loss: 1.134 | Accuracy: 0.641 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.315, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.339, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.292, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.414, accuracy = 0.906
+Loss: 0.343 | Accuracy: 0.911 (training, average)
+Loss: 1.159 | Accuracy: 0.643 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 32/80: lr = 1.00e-03 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.844, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.778, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.734, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.862, accuracy = 0.672
+Loss: 0.882 | Accuracy: 0.688 (training, average)
+Loss: 1.274 | Accuracy: 0.582 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.982, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.891, accuracy = 0.625
+Iteration 100:  minibatch training loss = 0.767, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.750, accuracy = 0.750
+Loss: 0.805 | Accuracy: 0.714 (training, average)
+Loss: 1.248 | Accuracy: 0.587 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.916, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.681, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.783, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.768, accuracy = 0.719
+Loss: 0.766 | Accuracy: 0.729 (training, average)
+Loss: 1.186 | Accuracy: 0.609 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 1.036, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.606, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.722, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.682, accuracy = 0.734
+Loss: 0.753 | Accuracy: 0.737 (training, average)
+Loss: 1.173 | Accuracy: 0.611 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.871, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.571, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.621, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.673, accuracy = 0.781
+Loss: 0.719 | Accuracy: 0.751 (training, average)
+Loss: 1.239 | Accuracy: 0.597 (validation)
+
+Done in 669s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 33/80: lr = 1.00e-03 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.568, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.574, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.374, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.401, accuracy = 0.844
+Loss: 0.440 | Accuracy: 0.866 (training, average)
+Loss: 1.068 | Accuracy: 0.627 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.430, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.522, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.310, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.367, accuracy = 0.875
+Loss: 0.391 | Accuracy: 0.890 (training, average)
+Loss: 1.076 | Accuracy: 0.622 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.343, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.482, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.267, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.325, accuracy = 0.891
+Loss: 0.347 | Accuracy: 0.907 (training, average)
+Loss: 1.100 | Accuracy: 0.627 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.319, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.431, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.240, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.291, accuracy = 0.891
+Loss: 0.318 | Accuracy: 0.918 (training, average)
+Loss: 1.090 | Accuracy: 0.630 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.284, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.395, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.218, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.259, accuracy = 0.922
+Loss: 0.295 | Accuracy: 0.927 (training, average)
+Loss: 1.129 | Accuracy: 0.630 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 34/80: lr = 1.00e-03 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.582, accuracy = 0.844
+Iteration  50:  minibatch training loss = 1.000, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.781, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.896, accuracy = 0.641
+Loss: 0.838 | Accuracy: 0.699 (training, average)
+Loss: 1.562 | Accuracy: 0.529 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.564, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.933, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.729, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.775, accuracy = 0.734
+Loss: 0.775 | Accuracy: 0.722 (training, average)
+Loss: 1.288 | Accuracy: 0.568 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.500, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.749, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.734, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.690, accuracy = 0.734
+Loss: 0.743 | Accuracy: 0.738 (training, average)
+Loss: 1.329 | Accuracy: 0.572 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.601, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.951, accuracy = 0.625
+Iteration 100:  minibatch training loss = 0.784, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.753, accuracy = 0.672
+Loss: 0.720 | Accuracy: 0.746 (training, average)
+Loss: 1.293 | Accuracy: 0.575 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.625, accuracy = 0.828
+Iteration  50:  minibatch training loss = 1.043, accuracy = 0.625
+Iteration 100:  minibatch training loss = 0.673, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.686, accuracy = 0.719
+Loss: 0.724 | Accuracy: 0.742 (training, average)
+Loss: 1.180 | Accuracy: 0.623 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 35/80: lr = 1.00e-03 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.444, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.374, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.325, accuracy = 0.906
+Iteration 150:  minibatch training loss = 0.418, accuracy = 0.875
+Loss: 0.396 | Accuracy: 0.880 (training, average)
+Loss: 1.074 | Accuracy: 0.641 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.403, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.321, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.290, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.355, accuracy = 0.922
+Loss: 0.337 | Accuracy: 0.906 (training, average)
+Loss: 0.993 | Accuracy: 0.675 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.344, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.304, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.268, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.325, accuracy = 0.938
+Loss: 0.294 | Accuracy: 0.926 (training, average)
+Loss: 1.024 | Accuracy: 0.665 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.302, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.291, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.247, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.295, accuracy = 0.953
+Loss: 0.267 | Accuracy: 0.939 (training, average)
+Loss: 1.051 | Accuracy: 0.656 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.268, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.281, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.228, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.263, accuracy = 0.953
+Loss: 0.245 | Accuracy: 0.949 (training, average)
+Loss: 1.072 | Accuracy: 0.650 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 36/80: lr = 1.00e-03 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.690, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.785, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.999, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.717, accuracy = 0.750
+Loss: 0.781 | Accuracy: 0.722 (training, average)
+Loss: 1.484 | Accuracy: 0.540 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.643, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.639, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.853, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.656, accuracy = 0.781
+Loss: 0.738 | Accuracy: 0.736 (training, average)
+Loss: 1.225 | Accuracy: 0.580 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.615, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.624, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.949, accuracy = 0.656
+Iteration 150:  minibatch training loss = 0.624, accuracy = 0.828
+Loss: 0.700 | Accuracy: 0.751 (training, average)
+Loss: 1.225 | Accuracy: 0.602 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.648, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.529, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.820, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.608, accuracy = 0.828
+Loss: 0.672 | Accuracy: 0.766 (training, average)
+Loss: 1.137 | Accuracy: 0.620 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.561, accuracy = 0.781
+Iteration  50:  minibatch training loss = 0.527, accuracy = 0.797
+Iteration 100:  minibatch training loss = 0.731, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.640, accuracy = 0.828
+Loss: 0.661 | Accuracy: 0.770 (training, average)
+Loss: 1.150 | Accuracy: 0.617 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 37/80: lr = 1.00e-03 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.500, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.358, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.317, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.345, accuracy = 0.906
+Loss: 0.348 | Accuracy: 0.898 (training, average)
+Loss: 1.106 | Accuracy: 0.636 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.373, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.310, accuracy = 0.891
+Iteration 100:  minibatch training loss = 0.279, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.299, accuracy = 0.922
+Loss: 0.291 | Accuracy: 0.925 (training, average)
+Loss: 1.047 | Accuracy: 0.649 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.334, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.282, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.250, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.272, accuracy = 0.922
+Loss: 0.252 | Accuracy: 0.943 (training, average)
+Loss: 1.034 | Accuracy: 0.659 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.301, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.260, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.224, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.250, accuracy = 0.953
+Loss: 0.228 | Accuracy: 0.954 (training, average)
+Loss: 1.059 | Accuracy: 0.655 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.283, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.245, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.199, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.234, accuracy = 0.953
+Loss: 0.209 | Accuracy: 0.961 (training, average)
+Loss: 1.072 | Accuracy: 0.655 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 38/80: lr = 1.00e-03 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.684, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.936, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.709, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.862, accuracy = 0.688
+Loss: 0.768 | Accuracy: 0.723 (training, average)
+Loss: 1.433 | Accuracy: 0.577 (validation)
+
+Epoch 2/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.737, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.623, accuracy = 0.797
+Iteration 100:  minibatch training loss = 0.685, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.738, accuracy = 0.703
+Loss: 0.702 | Accuracy: 0.748 (training, average)
+Loss: 1.240 | Accuracy: 0.589 (validation)
+
+Epoch 3/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.678, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.557, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.693, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.690, accuracy = 0.766
+Loss: 0.675 | Accuracy: 0.761 (training, average)
+Loss: 1.254 | Accuracy: 0.580 (validation)
+
+Epoch 4/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.503, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.582, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.733, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.725, accuracy = 0.766
+Loss: 0.675 | Accuracy: 0.763 (training, average)
+Loss: 1.179 | Accuracy: 0.616 (validation)
+
+Epoch 5/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.555, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.647, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.730, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.549, accuracy = 0.797
+Loss: 0.653 | Accuracy: 0.776 (training, average)
+Loss: 1.174 | Accuracy: 0.627 (validation)
+
+Done in 694s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 39/80: lr = 1.00e-03 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.377, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.236, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.309, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.304, accuracy = 0.922
+Loss: 0.313 | Accuracy: 0.908 (training, average)
+Loss: 1.166 | Accuracy: 0.614 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.243, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.207, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.240, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.248, accuracy = 0.953
+Loss: 0.251 | Accuracy: 0.936 (training, average)
+Loss: 1.089 | Accuracy: 0.638 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.206, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.177, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.204, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.219, accuracy = 0.953
+Loss: 0.218 | Accuracy: 0.954 (training, average)
+Loss: 1.088 | Accuracy: 0.641 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.173, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.156, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.178, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.199, accuracy = 0.984
+Loss: 0.196 | Accuracy: 0.965 (training, average)
+Loss: 1.089 | Accuracy: 0.654 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.152, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.141, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.157, accuracy = 0.984
+Iteration 150:  minibatch training loss = 0.173, accuracy = 0.984
+Loss: 0.179 | Accuracy: 0.971 (training, average)
+Loss: 1.101 | Accuracy: 0.652 (validation)
+
+Done in 676s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 40/80: lr = 1.00e-03 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-03)
+Iteration   0:  minibatch training loss = 0.722, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.690, accuracy = 0.797
+Iteration 100:  minibatch training loss = 0.661, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.680, accuracy = 0.781
+Loss: 0.717 | Accuracy: 0.745 (training, average)
+Loss: 1.587 | Accuracy: 0.534 (validation)
+
+Epoch 2/5 (learning rate 9.600e-04)
+Iteration   0:  minibatch training loss = 0.569, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.666, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.585, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.506, accuracy = 0.828
+Loss: 0.678 | Accuracy: 0.757 (training, average)
+Loss: 1.553 | Accuracy: 0.513 (validation)
+
+Epoch 3/5 (learning rate 9.216e-04)
+Iteration   0:  minibatch training loss = 0.545, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.672, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.639, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.541, accuracy = 0.812
+Loss: 0.644 | Accuracy: 0.775 (training, average)
+Loss: 1.339 | Accuracy: 0.589 (validation)
+
+Epoch 4/5 (learning rate 8.847e-04)
+Iteration   0:  minibatch training loss = 0.647, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.557, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.667, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.491, accuracy = 0.859
+Loss: 0.628 | Accuracy: 0.778 (training, average)
+Loss: 1.118 | Accuracy: 0.632 (validation)
+
+Epoch 5/5 (learning rate 8.493e-04)
+Iteration   0:  minibatch training loss = 0.546, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.616, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.642, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.548, accuracy = 0.828
+Loss: 0.618 | Accuracy: 0.782 (training, average)
+Loss: 1.190 | Accuracy: 0.613 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 41/80: lr = 1.00e-02 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.214, accuracy = 0.953
+Iteration  50:  minibatch training loss = 1.884, accuracy = 0.438
+Iteration 100:  minibatch training loss = 1.064, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.207, accuracy = 0.594
+Loss: 1.390 | Accuracy: 0.556 (training, average)
+Loss: 3.041 | Accuracy: 0.315 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 1.096, accuracy = 0.609
+Iteration  50:  minibatch training loss = 1.172, accuracy = 0.578
+Iteration 100:  minibatch training loss = 0.800, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.818, accuracy = 0.688
+Loss: 0.896 | Accuracy: 0.686 (training, average)
+Loss: 2.596 | Accuracy: 0.306 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.720, accuracy = 0.750
+Iteration  50:  minibatch training loss = 1.000, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.684, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.667, accuracy = 0.750
+Loss: 0.709 | Accuracy: 0.750 (training, average)
+Loss: 2.392 | Accuracy: 0.358 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.599, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.753, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.567, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.668, accuracy = 0.734
+Loss: 0.593 | Accuracy: 0.797 (training, average)
+Loss: 2.548 | Accuracy: 0.347 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.494, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.630, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.418, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.563, accuracy = 0.828
+Loss: 0.529 | Accuracy: 0.819 (training, average)
+Loss: 2.720 | Accuracy: 0.386 (validation)
+
+Done in 661s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 42/80: lr = 1.00e-02 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 1.451, accuracy = 0.531
+Iteration  50:  minibatch training loss = 1.187, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.938, accuracy = 0.594
+Iteration 150:  minibatch training loss = 0.682, accuracy = 0.766
+Loss: 1.063 | Accuracy: 0.633 (training, average)
+Loss: 1.760 | Accuracy: 0.523 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.982, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.954, accuracy = 0.703
+Iteration 100:  minibatch training loss = 1.010, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.783, accuracy = 0.750
+Loss: 0.956 | Accuracy: 0.658 (training, average)
+Loss: 1.352 | Accuracy: 0.559 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.756, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.864, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.926, accuracy = 0.688
+Iteration 150:  minibatch training loss = 0.782, accuracy = 0.719
+Loss: 0.888 | Accuracy: 0.692 (training, average)
+Loss: 1.492 | Accuracy: 0.531 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.756, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.976, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.792, accuracy = 0.625
+Iteration 150:  minibatch training loss = 0.595, accuracy = 0.766
+Loss: 0.850 | Accuracy: 0.702 (training, average)
+Loss: 1.596 | Accuracy: 0.515 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.704, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.851, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.683, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.480, accuracy = 0.891
+Loss: 0.832 | Accuracy: 0.707 (training, average)
+Loss: 1.662 | Accuracy: 0.520 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 43/80: lr = 1.00e-02 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.452, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.414, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.611, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.431, accuracy = 0.844
+Loss: 0.569 | Accuracy: 0.807 (training, average)
+Loss: 1.219 | Accuracy: 0.620 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.409, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.375, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.433, accuracy = 0.844
+Iteration 150:  minibatch training loss = 0.329, accuracy = 0.891
+Loss: 0.442 | Accuracy: 0.860 (training, average)
+Loss: 1.268 | Accuracy: 0.604 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.325, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.304, accuracy = 0.891
+Iteration 100:  minibatch training loss = 0.361, accuracy = 0.891
+Iteration 150:  minibatch training loss = 0.313, accuracy = 0.922
+Loss: 0.358 | Accuracy: 0.895 (training, average)
+Loss: 1.454 | Accuracy: 0.604 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.273, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.261, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.310, accuracy = 0.891
+Iteration 150:  minibatch training loss = 0.264, accuracy = 0.906
+Loss: 0.301 | Accuracy: 0.915 (training, average)
+Loss: 1.920 | Accuracy: 0.565 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.246, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.228, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.223, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.169, accuracy = 0.969
+Loss: 0.258 | Accuracy: 0.935 (training, average)
+Loss: 1.916 | Accuracy: 0.553 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 44/80: lr = 1.00e-02 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 1.193, accuracy = 0.656
+Iteration  50:  minibatch training loss = 1.121, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.861, accuracy = 0.688
+Iteration 150:  minibatch training loss = 0.894, accuracy = 0.656
+Loss: 0.989 | Accuracy: 0.659 (training, average)
+Loss: 1.900 | Accuracy: 0.496 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 1.096, accuracy = 0.594
+Iteration  50:  minibatch training loss = 0.943, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.772, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.813, accuracy = 0.766
+Loss: 0.849 | Accuracy: 0.693 (training, average)
+Loss: 1.313 | Accuracy: 0.577 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.996, accuracy = 0.641
+Iteration  50:  minibatch training loss = 0.872, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.708, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.701, accuracy = 0.750
+Loss: 0.775 | Accuracy: 0.720 (training, average)
+Loss: 1.536 | Accuracy: 0.534 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.931, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.855, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.719, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.884, accuracy = 0.734
+Loss: 0.750 | Accuracy: 0.730 (training, average)
+Loss: 1.090 | Accuracy: 0.650 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.712, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.716, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.820, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.740, accuracy = 0.781
+Loss: 0.701 | Accuracy: 0.747 (training, average)
+Loss: 1.251 | Accuracy: 0.605 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 45/80: lr = 1.00e-02 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.424, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.331, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.501, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.588, accuracy = 0.812
+Loss: 0.425 | Accuracy: 0.859 (training, average)
+Loss: 1.198 | Accuracy: 0.613 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.442, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.249, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.373, accuracy = 0.859
+Iteration 150:  minibatch training loss = 0.429, accuracy = 0.906
+Loss: 0.322 | Accuracy: 0.904 (training, average)
+Loss: 1.286 | Accuracy: 0.605 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.323, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.171, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.328, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.378, accuracy = 0.875
+Loss: 0.248 | Accuracy: 0.936 (training, average)
+Loss: 1.420 | Accuracy: 0.587 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.251, accuracy = 0.938
+Iteration  50:  minibatch training loss = 0.163, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.233, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.274, accuracy = 0.922
+Loss: 0.203 | Accuracy: 0.951 (training, average)
+Loss: 1.571 | Accuracy: 0.581 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.212, accuracy = 0.938
+Iteration  50:  minibatch training loss = 0.120, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.208, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.231, accuracy = 0.953
+Loss: 0.181 | Accuracy: 0.959 (training, average)
+Loss: 1.587 | Accuracy: 0.587 (validation)
+
+Done in 662s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 46/80: lr = 1.00e-02 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.775, accuracy = 0.719
+Iteration  50:  minibatch training loss = 1.281, accuracy = 0.594
+Iteration 100:  minibatch training loss = 1.203, accuracy = 0.578
+Iteration 150:  minibatch training loss = 1.082, accuracy = 0.688
+Loss: 0.953 | Accuracy: 0.683 (training, average)
+Loss: 1.858 | Accuracy: 0.531 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.675, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.881, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.726, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.778, accuracy = 0.734
+Loss: 0.799 | Accuracy: 0.718 (training, average)
+Loss: 1.424 | Accuracy: 0.590 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.722, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.868, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.017, accuracy = 0.609
+Iteration 150:  minibatch training loss = 0.675, accuracy = 0.781
+Loss: 0.734 | Accuracy: 0.738 (training, average)
+Loss: 1.316 | Accuracy: 0.605 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.640, accuracy = 0.781
+Iteration  50:  minibatch training loss = 0.816, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.732, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.782, accuracy = 0.688
+Loss: 0.697 | Accuracy: 0.748 (training, average)
+Loss: 1.295 | Accuracy: 0.583 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.473, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.753, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.525, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.567, accuracy = 0.828
+Loss: 0.665 | Accuracy: 0.759 (training, average)
+Loss: 1.190 | Accuracy: 0.623 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 47/80: lr = 1.00e-02 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.297, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.232, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.274, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.426, accuracy = 0.844
+Loss: 0.340 | Accuracy: 0.888 (training, average)
+Loss: 1.402 | Accuracy: 0.573 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.239, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.234, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.220, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.220, accuracy = 0.953
+Loss: 0.228 | Accuracy: 0.939 (training, average)
+Loss: 1.275 | Accuracy: 0.626 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.151, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.117, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.168, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.124, accuracy = 0.984
+Loss: 0.154 | Accuracy: 0.970 (training, average)
+Loss: 1.229 | Accuracy: 0.659 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.102, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.082, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.133, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.113, accuracy = 1.000
+Loss: 0.116 | Accuracy: 0.985 (training, average)
+Loss: 1.210 | Accuracy: 0.664 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.073, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.069, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.106, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.086, accuracy = 1.000
+Loss: 0.089 | Accuracy: 0.992 (training, average)
+Loss: 1.174 | Accuracy: 0.679 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 48/80: lr = 1.00e-02 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.624, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.981, accuracy = 0.641
+Iteration 100:  minibatch training loss = 1.090, accuracy = 0.625
+Iteration 150:  minibatch training loss = 0.742, accuracy = 0.719
+Loss: 0.874 | Accuracy: 0.707 (training, average)
+Loss: 2.189 | Accuracy: 0.493 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.657, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.696, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.620, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.665, accuracy = 0.797
+Loss: 0.756 | Accuracy: 0.731 (training, average)
+Loss: 1.530 | Accuracy: 0.570 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.549, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.914, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.769, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.706, accuracy = 0.781
+Loss: 0.676 | Accuracy: 0.761 (training, average)
+Loss: 1.454 | Accuracy: 0.574 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.500, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.805, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.539, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.671, accuracy = 0.734
+Loss: 0.622 | Accuracy: 0.779 (training, average)
+Loss: 1.533 | Accuracy: 0.572 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.541, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.775, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.636, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.744, accuracy = 0.688
+Loss: 0.593 | Accuracy: 0.786 (training, average)
+Loss: 1.307 | Accuracy: 0.627 (validation)
+
+Done in 668s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 49/80: lr = 1.00e-02 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.249, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.387, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.204, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.232, accuracy = 0.891
+Loss: 0.258 | Accuracy: 0.920 (training, average)
+Loss: 1.381 | Accuracy: 0.603 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.171, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.225, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.115, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.133, accuracy = 0.984
+Loss: 0.157 | Accuracy: 0.967 (training, average)
+Loss: 1.326 | Accuracy: 0.644 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.124, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.183, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.079, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.098, accuracy = 1.000
+Loss: 0.106 | Accuracy: 0.986 (training, average)
+Loss: 1.159 | Accuracy: 0.671 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.085, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.129, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.058, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.079, accuracy = 0.984
+Loss: 0.079 | Accuracy: 0.993 (training, average)
+Loss: 1.146 | Accuracy: 0.682 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.068, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.112, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.055, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.069, accuracy = 0.984
+Loss: 0.060 | Accuracy: 0.997 (training, average)
+Loss: 1.223 | Accuracy: 0.675 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 50/80: lr = 1.00e-02 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.542, accuracy = 0.766
+Iteration  50:  minibatch training loss = 1.023, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.805, accuracy = 0.656
+Iteration 150:  minibatch training loss = 1.053, accuracy = 0.641
+Loss: 0.816 | Accuracy: 0.724 (training, average)
+Loss: 2.204 | Accuracy: 0.495 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.999, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.815, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.768, accuracy = 0.688
+Iteration 150:  minibatch training loss = 0.564, accuracy = 0.812
+Loss: 0.756 | Accuracy: 0.737 (training, average)
+Loss: 1.464 | Accuracy: 0.575 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.608, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.783, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.592, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.684, accuracy = 0.766
+Loss: 0.610 | Accuracy: 0.784 (training, average)
+Loss: 1.558 | Accuracy: 0.532 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.662, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.496, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.473, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.652, accuracy = 0.703
+Loss: 0.578 | Accuracy: 0.789 (training, average)
+Loss: 1.605 | Accuracy: 0.536 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.669, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.498, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.633, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.612, accuracy = 0.797
+Loss: 0.566 | Accuracy: 0.793 (training, average)
+Loss: 1.324 | Accuracy: 0.609 (validation)
+
+Done in 675s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 51/80: lr = 1.00e-02 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.209, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.201, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.181, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.243, accuracy = 0.922
+Loss: 0.208 | Accuracy: 0.936 (training, average)
+Loss: 1.139 | Accuracy: 0.663 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.140, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.134, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.114, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.120, accuracy = 1.000
+Loss: 0.117 | Accuracy: 0.981 (training, average)
+Loss: 1.158 | Accuracy: 0.688 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.101, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.090, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.061, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.083, accuracy = 1.000
+Loss: 0.075 | Accuracy: 0.993 (training, average)
+Loss: 1.095 | Accuracy: 0.686 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.060, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.054, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.046, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.057, accuracy = 1.000
+Loss: 0.053 | Accuracy: 0.997 (training, average)
+Loss: 1.104 | Accuracy: 0.685 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.039, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.039, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.035, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.045, accuracy = 1.000
+Loss: 0.040 | Accuracy: 0.999 (training, average)
+Loss: 1.139 | Accuracy: 0.675 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 52/80: lr = 1.00e-02 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.420, accuracy = 0.828
+Iteration  50:  minibatch training loss = 1.096, accuracy = 0.672
+Iteration 100:  minibatch training loss = 0.820, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.758, accuracy = 0.703
+Loss: 0.739 | Accuracy: 0.747 (training, average)
+Loss: 2.251 | Accuracy: 0.519 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.517, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.553, accuracy = 0.797
+Iteration 100:  minibatch training loss = 0.752, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.469, accuracy = 0.844
+Loss: 0.657 | Accuracy: 0.765 (training, average)
+Loss: 1.538 | Accuracy: 0.586 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.629, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.613, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.653, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.645, accuracy = 0.734
+Loss: 0.557 | Accuracy: 0.797 (training, average)
+Loss: 1.416 | Accuracy: 0.617 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.551, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.625, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.600, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.447, accuracy = 0.812
+Loss: 0.511 | Accuracy: 0.820 (training, average)
+Loss: 1.235 | Accuracy: 0.644 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.598, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.531, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.392, accuracy = 0.844
+Iteration 150:  minibatch training loss = 0.460, accuracy = 0.875
+Loss: 0.482 | Accuracy: 0.831 (training, average)
+Loss: 1.463 | Accuracy: 0.591 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 53/80: lr = 1.00e-02 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.233, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.108, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.218, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.150, accuracy = 0.953
+Loss: 0.175 | Accuracy: 0.947 (training, average)
+Loss: 1.186 | Accuracy: 0.673 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.100, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.081, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.093, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.074, accuracy = 1.000
+Loss: 0.133 | Accuracy: 0.967 (training, average)
+Loss: 1.137 | Accuracy: 0.693 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.037, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.053, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.060, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.051, accuracy = 1.000
+Loss: 0.059 | Accuracy: 0.996 (training, average)
+Loss: 1.171 | Accuracy: 0.693 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.031, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.031, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.041, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.035, accuracy = 1.000
+Loss: 0.043 | Accuracy: 0.999 (training, average)
+Loss: 1.244 | Accuracy: 0.685 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.026, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.025, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.033, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.024, accuracy = 1.000
+Loss: 0.032 | Accuracy: 1.000 (training, average)
+Loss: 1.287 | Accuracy: 0.685 (validation)
+
+Done in 663s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 54/80: lr = 1.00e-02 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.395, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.648, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.744, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.868, accuracy = 0.703
+Loss: 0.696 | Accuracy: 0.766 (training, average)
+Loss: 2.470 | Accuracy: 0.454 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.601, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.767, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.628, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.761, accuracy = 0.766
+Loss: 0.639 | Accuracy: 0.776 (training, average)
+Loss: 1.873 | Accuracy: 0.539 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.532, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.721, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.478, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.609, accuracy = 0.781
+Loss: 0.537 | Accuracy: 0.807 (training, average)
+Loss: 1.339 | Accuracy: 0.633 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.464, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.398, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.494, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.691, accuracy = 0.797
+Loss: 0.516 | Accuracy: 0.814 (training, average)
+Loss: 1.369 | Accuracy: 0.618 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.423, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.624, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.404, accuracy = 0.844
+Iteration 150:  minibatch training loss = 0.415, accuracy = 0.859
+Loss: 0.483 | Accuracy: 0.826 (training, average)
+Loss: 1.405 | Accuracy: 0.610 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 55/80: lr = 1.00e-02 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.175, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.159, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.107, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.156, accuracy = 0.953
+Loss: 0.138 | Accuracy: 0.963 (training, average)
+Loss: 1.054 | Accuracy: 0.686 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.102, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.077, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.061, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.076, accuracy = 1.000
+Loss: 0.082 | Accuracy: 0.987 (training, average)
+Loss: 1.082 | Accuracy: 0.695 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.079, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.053, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.044, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.043, accuracy = 1.000
+Loss: 0.048 | Accuracy: 0.998 (training, average)
+Loss: 1.109 | Accuracy: 0.701 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.049, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.048, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.032, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.030, accuracy = 1.000
+Loss: 0.034 | Accuracy: 1.000 (training, average)
+Loss: 1.108 | Accuracy: 0.703 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.034, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.038, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.024, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.024, accuracy = 1.000
+Loss: 0.026 | Accuracy: 1.000 (training, average)
+Loss: 1.124 | Accuracy: 0.702 (validation)
+
+Done in 662s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 56/80: lr = 1.00e-02 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.356, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.507, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.856, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.939, accuracy = 0.641
+Loss: 0.613 | Accuracy: 0.787 (training, average)
+Loss: 2.048 | Accuracy: 0.527 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.642, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.729, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.510, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.733, accuracy = 0.750
+Loss: 0.593 | Accuracy: 0.784 (training, average)
+Loss: 1.394 | Accuracy: 0.621 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.514, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.467, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.452, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.716, accuracy = 0.734
+Loss: 0.496 | Accuracy: 0.818 (training, average)
+Loss: 1.277 | Accuracy: 0.634 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.448, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.392, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.607, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.672, accuracy = 0.766
+Loss: 0.463 | Accuracy: 0.833 (training, average)
+Loss: 1.287 | Accuracy: 0.627 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.455, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.373, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.575, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.538, accuracy = 0.812
+Loss: 0.425 | Accuracy: 0.847 (training, average)
+Loss: 1.224 | Accuracy: 0.651 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 57/80: lr = 1.00e-02 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.151, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.135, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.055, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.179, accuracy = 0.938
+Loss: 0.110 | Accuracy: 0.971 (training, average)
+Loss: 1.023 | Accuracy: 0.707 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.061, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.064, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.031, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.092, accuracy = 0.984
+Loss: 0.054 | Accuracy: 0.995 (training, average)
+Loss: 1.028 | Accuracy: 0.717 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.033, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.045, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.021, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.043, accuracy = 1.000
+Loss: 0.034 | Accuracy: 0.999 (training, average)
+Loss: 1.062 | Accuracy: 0.721 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.024, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.036, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.016, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.027, accuracy = 1.000
+Loss: 0.026 | Accuracy: 1.000 (training, average)
+Loss: 1.086 | Accuracy: 0.715 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.018, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.026, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.013, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.020, accuracy = 1.000
+Loss: 0.020 | Accuracy: 1.000 (training, average)
+Loss: 1.109 | Accuracy: 0.714 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 58/80: lr = 1.00e-02 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.278, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.492, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.721, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.566, accuracy = 0.797
+Loss: 0.603 | Accuracy: 0.793 (training, average)
+Loss: 1.923 | Accuracy: 0.570 (validation)
+
+Epoch 2/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.603, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.418, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.487, accuracy = 0.844
+Iteration 150:  minibatch training loss = 0.590, accuracy = 0.766
+Loss: 0.608 | Accuracy: 0.785 (training, average)
+Loss: 1.651 | Accuracy: 0.588 (validation)
+
+Epoch 3/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.358, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.537, accuracy = 0.797
+Iteration 100:  minibatch training loss = 0.511, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.375, accuracy = 0.844
+Loss: 0.452 | Accuracy: 0.833 (training, average)
+Loss: 1.519 | Accuracy: 0.583 (validation)
+
+Epoch 4/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.386, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.308, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.584, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.329, accuracy = 0.859
+Loss: 0.439 | Accuracy: 0.840 (training, average)
+Loss: 1.315 | Accuracy: 0.627 (validation)
+
+Epoch 5/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.424, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.396, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.409, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.457, accuracy = 0.859
+Loss: 0.431 | Accuracy: 0.844 (training, average)
+Loss: 1.353 | Accuracy: 0.619 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 59/80: lr = 1.00e-02 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.093, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.166, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.079, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.151, accuracy = 0.953
+Loss: 0.096 | Accuracy: 0.976 (training, average)
+Loss: 0.967 | Accuracy: 0.700 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.049, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.062, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.043, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.077, accuracy = 0.984
+Loss: 0.046 | Accuracy: 0.996 (training, average)
+Loss: 1.045 | Accuracy: 0.703 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.029, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.036, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.029, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.050, accuracy = 0.984
+Loss: 0.031 | Accuracy: 0.999 (training, average)
+Loss: 1.085 | Accuracy: 0.707 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.020, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.028, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.023, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.037, accuracy = 1.000
+Loss: 0.023 | Accuracy: 1.000 (training, average)
+Loss: 1.106 | Accuracy: 0.708 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.015, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.023, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.019, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.028, accuracy = 1.000
+Loss: 0.019 | Accuracy: 1.000 (training, average)
+Loss: 1.121 | Accuracy: 0.710 (validation)
+
+Done in 664s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 60/80: lr = 1.00e-02 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-02)
+Iteration   0:  minibatch training loss = 0.291, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.405, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.714, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.368, accuracy = 0.875
+Loss: 0.557 | Accuracy: 0.809 (training, average)
+Loss: 1.891 | Accuracy: 0.571 (validation)
+
+Epoch 2/5 (learning rate 9.600e-03)
+Iteration   0:  minibatch training loss = 0.512, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.357, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.470, accuracy = 0.844
+Iteration 150:  minibatch training loss = 0.453, accuracy = 0.891
+Loss: 0.529 | Accuracy: 0.819 (training, average)
+Loss: 1.494 | Accuracy: 0.609 (validation)
+
+Epoch 3/5 (learning rate 9.216e-03)
+Iteration   0:  minibatch training loss = 0.380, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.279, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.314, accuracy = 0.891
+Iteration 150:  minibatch training loss = 0.387, accuracy = 0.828
+Loss: 0.439 | Accuracy: 0.843 (training, average)
+Loss: 1.402 | Accuracy: 0.626 (validation)
+
+Epoch 4/5 (learning rate 8.847e-03)
+Iteration   0:  minibatch training loss = 0.462, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.300, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.510, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.351, accuracy = 0.859
+Loss: 0.419 | Accuracy: 0.854 (training, average)
+Loss: 1.370 | Accuracy: 0.626 (validation)
+
+Epoch 5/5 (learning rate 8.493e-03)
+Iteration   0:  minibatch training loss = 0.328, accuracy = 0.859
+Iteration  50:  minibatch training loss = 0.306, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.260, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.406, accuracy = 0.875
+Loss: 0.386 | Accuracy: 0.864 (training, average)
+Loss: 1.324 | Accuracy: 0.630 (validation)
+
+Done in 669s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 61/80: lr = 1.00e-01 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.096, accuracy = 0.984
+Iteration  50:  minibatch training loss = 1.703, accuracy = 0.422
+Iteration 100:  minibatch training loss = 1.241, accuracy = 0.500
+Iteration 150:  minibatch training loss = 1.260, accuracy = 0.562
+Loss: 1.562 | Accuracy: 0.507 (training, average)
+Loss: 2.657 | Accuracy: 0.353 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.052, accuracy = 0.594
+Iteration  50:  minibatch training loss = 1.054, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.768, accuracy = 0.719
+Iteration 150:  minibatch training loss = 1.008, accuracy = 0.625
+Loss: 1.064 | Accuracy: 0.626 (training, average)
+Loss: 1.928 | Accuracy: 0.435 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.024, accuracy = 0.609
+Iteration  50:  minibatch training loss = 0.911, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.676, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.764, accuracy = 0.766
+Loss: 0.898 | Accuracy: 0.687 (training, average)
+Loss: 2.270 | Accuracy: 0.410 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.872, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.681, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.667, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.683, accuracy = 0.766
+Loss: 0.773 | Accuracy: 0.727 (training, average)
+Loss: 1.788 | Accuracy: 0.510 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.739, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.636, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.527, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.646, accuracy = 0.766
+Loss: 0.671 | Accuracy: 0.761 (training, average)
+Loss: 1.928 | Accuracy: 0.520 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 62/80: lr = 1.00e-01 | reg = 1.00e-05 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.447, accuracy = 0.578
+Iteration  50:  minibatch training loss = 1.055, accuracy = 0.625
+Iteration 100:  minibatch training loss = 1.267, accuracy = 0.594
+Iteration 150:  minibatch training loss = 1.196, accuracy = 0.625
+Loss: 1.092 | Accuracy: 0.615 (training, average)
+Loss: 1.996 | Accuracy: 0.465 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.100, accuracy = 0.625
+Iteration  50:  minibatch training loss = 1.005, accuracy = 0.609
+Iteration 100:  minibatch training loss = 1.159, accuracy = 0.625
+Iteration 150:  minibatch training loss = 1.187, accuracy = 0.609
+Loss: 1.005 | Accuracy: 0.649 (training, average)
+Loss: 2.087 | Accuracy: 0.455 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.052, accuracy = 0.531
+Iteration  50:  minibatch training loss = 0.897, accuracy = 0.719
+Iteration 100:  minibatch training loss = 1.071, accuracy = 0.656
+Iteration 150:  minibatch training loss = 1.295, accuracy = 0.594
+Loss: 0.944 | Accuracy: 0.664 (training, average)
+Loss: 1.804 | Accuracy: 0.520 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.989, accuracy = 0.578
+Iteration  50:  minibatch training loss = 0.910, accuracy = 0.672
+Iteration 100:  minibatch training loss = 1.093, accuracy = 0.656
+Iteration 150:  minibatch training loss = 1.024, accuracy = 0.609
+Loss: 0.923 | Accuracy: 0.673 (training, average)
+Loss: 1.721 | Accuracy: 0.540 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.842, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.803, accuracy = 0.719
+Iteration 100:  minibatch training loss = 1.099, accuracy = 0.672
+Iteration 150:  minibatch training loss = 1.216, accuracy = 0.609
+Loss: 0.903 | Accuracy: 0.679 (training, average)
+Loss: 1.598 | Accuracy: 0.559 (validation)
+
+Done in 676s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 63/80: lr = 1.00e-01 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.748, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.369, accuracy = 0.859
+Iteration 100:  minibatch training loss = 0.664, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.693, accuracy = 0.750
+Loss: 0.628 | Accuracy: 0.777 (training, average)
+Loss: 1.436 | Accuracy: 0.565 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.851, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.213, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.446, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.473, accuracy = 0.812
+Loss: 0.477 | Accuracy: 0.832 (training, average)
+Loss: 2.025 | Accuracy: 0.510 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.736, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.210, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.435, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.402, accuracy = 0.906
+Loss: 0.392 | Accuracy: 0.864 (training, average)
+Loss: 2.198 | Accuracy: 0.553 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.595, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.216, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.400, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.399, accuracy = 0.844
+Loss: 0.357 | Accuracy: 0.874 (training, average)
+Loss: 2.400 | Accuracy: 0.511 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.610, accuracy = 0.781
+Iteration  50:  minibatch training loss = 0.203, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.430, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.491, accuracy = 0.812
+Loss: 0.356 | Accuracy: 0.872 (training, average)
+Loss: 2.835 | Accuracy: 0.478 (validation)
+
+Done in 686s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 64/80: lr = 1.00e-01 | reg = 1.00e-05 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.242, accuracy = 0.641
+Iteration  50:  minibatch training loss = 0.947, accuracy = 0.703
+Iteration 100:  minibatch training loss = 0.912, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.971, accuracy = 0.734
+Loss: 1.021 | Accuracy: 0.653 (training, average)
+Loss: 1.658 | Accuracy: 0.548 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 1.089, accuracy = 0.625
+Iteration  50:  minibatch training loss = 1.216, accuracy = 0.594
+Iteration 100:  minibatch training loss = 0.810, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.603, accuracy = 0.766
+Loss: 0.909 | Accuracy: 0.677 (training, average)
+Loss: 1.891 | Accuracy: 0.520 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.961, accuracy = 0.656
+Iteration  50:  minibatch training loss = 0.877, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.597, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.785, accuracy = 0.672
+Loss: 0.825 | Accuracy: 0.706 (training, average)
+Loss: 1.719 | Accuracy: 0.559 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.896, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.887, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.752, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.640, accuracy = 0.797
+Loss: 0.808 | Accuracy: 0.717 (training, average)
+Loss: 2.067 | Accuracy: 0.490 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.837, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.989, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.825, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.723, accuracy = 0.719
+Loss: 0.775 | Accuracy: 0.727 (training, average)
+Loss: 1.663 | Accuracy: 0.555 (validation)
+
+Done in 673s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 65/80: lr = 1.00e-01 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.475, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.522, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.504, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.386, accuracy = 0.844
+Loss: 0.430 | Accuracy: 0.852 (training, average)
+Loss: 1.408 | Accuracy: 0.615 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.337, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.305, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.525, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.175, accuracy = 0.953
+Loss: 0.333 | Accuracy: 0.883 (training, average)
+Loss: 1.706 | Accuracy: 0.628 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.194, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.269, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.135, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.207, accuracy = 0.969
+Loss: 0.279 | Accuracy: 0.903 (training, average)
+Loss: 2.041 | Accuracy: 0.603 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.240, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.411, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.293, accuracy = 0.875
+Iteration 150:  minibatch training loss = 0.338, accuracy = 0.875
+Loss: 0.262 | Accuracy: 0.907 (training, average)
+Loss: 2.065 | Accuracy: 0.609 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.218, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.401, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.368, accuracy = 0.859
+Iteration 150:  minibatch training loss = 0.129, accuracy = 0.953
+Loss: 0.274 | Accuracy: 0.904 (training, average)
+Loss: 2.049 | Accuracy: 0.615 (validation)
+
+Done in 662s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 66/80: lr = 1.00e-01 | reg = 1.00e-04 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.938, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.752, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.990, accuracy = 0.719
+Iteration 150:  minibatch training loss = 1.157, accuracy = 0.578
+Loss: 1.041 | Accuracy: 0.648 (training, average)
+Loss: 1.728 | Accuracy: 0.544 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.078, accuracy = 0.625
+Iteration  50:  minibatch training loss = 0.718, accuracy = 0.797
+Iteration 100:  minibatch training loss = 0.942, accuracy = 0.656
+Iteration 150:  minibatch training loss = 0.894, accuracy = 0.672
+Loss: 0.874 | Accuracy: 0.695 (training, average)
+Loss: 2.024 | Accuracy: 0.502 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.208, accuracy = 0.547
+Iteration  50:  minibatch training loss = 0.711, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.638, accuracy = 0.734
+Iteration 150:  minibatch training loss = 1.022, accuracy = 0.641
+Loss: 0.805 | Accuracy: 0.714 (training, average)
+Loss: 1.809 | Accuracy: 0.536 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.004, accuracy = 0.688
+Iteration  50:  minibatch training loss = 0.703, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.946, accuracy = 0.656
+Iteration 150:  minibatch training loss = 0.644, accuracy = 0.797
+Loss: 0.798 | Accuracy: 0.721 (training, average)
+Loss: 1.674 | Accuracy: 0.555 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.978, accuracy = 0.594
+Iteration  50:  minibatch training loss = 0.658, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.901, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.753, accuracy = 0.688
+Loss: 0.777 | Accuracy: 0.726 (training, average)
+Loss: 1.671 | Accuracy: 0.546 (validation)
+
+Done in 671s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 67/80: lr = 1.00e-01 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.550, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.219, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.217, accuracy = 0.891
+Iteration 150:  minibatch training loss = 0.448, accuracy = 0.828
+Loss: 0.317 | Accuracy: 0.887 (training, average)
+Loss: 1.266 | Accuracy: 0.649 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.299, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.112, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.111, accuracy = 0.984
+Iteration 150:  minibatch training loss = 0.211, accuracy = 0.922
+Loss: 0.184 | Accuracy: 0.935 (training, average)
+Loss: 1.520 | Accuracy: 0.644 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.058, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.085, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.129, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.188, accuracy = 0.922
+Loss: 0.151 | Accuracy: 0.947 (training, average)
+Loss: 1.882 | Accuracy: 0.599 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.222, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.146, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.185, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.129, accuracy = 0.953
+Loss: 0.133 | Accuracy: 0.953 (training, average)
+Loss: 1.906 | Accuracy: 0.639 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.094, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.115, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.292, accuracy = 0.906
+Iteration 150:  minibatch training loss = 0.079, accuracy = 0.984
+Loss: 0.123 | Accuracy: 0.957 (training, average)
+Loss: 2.309 | Accuracy: 0.628 (validation)
+
+Done in 662s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 68/80: lr = 1.00e-01 | reg = 1.00e-04 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.299, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.822, accuracy = 0.641
+Iteration 100:  minibatch training loss = 0.902, accuracy = 0.688
+Iteration 150:  minibatch training loss = 0.910, accuracy = 0.656
+Loss: 1.027 | Accuracy: 0.669 (training, average)
+Loss: 2.327 | Accuracy: 0.497 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.777, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.948, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.984, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.787, accuracy = 0.734
+Loss: 0.824 | Accuracy: 0.711 (training, average)
+Loss: 1.504 | Accuracy: 0.594 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.678, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.824, accuracy = 0.734
+Iteration 100:  minibatch training loss = 1.125, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.769, accuracy = 0.703
+Loss: 0.794 | Accuracy: 0.724 (training, average)
+Loss: 1.498 | Accuracy: 0.576 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.720, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.704, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.710, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.742, accuracy = 0.781
+Loss: 0.747 | Accuracy: 0.741 (training, average)
+Loss: 1.384 | Accuracy: 0.607 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.656, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.663, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.849, accuracy = 0.703
+Iteration 150:  minibatch training loss = 1.040, accuracy = 0.734
+Loss: 0.685 | Accuracy: 0.757 (training, average)
+Loss: 1.574 | Accuracy: 0.599 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 69/80: lr = 1.00e-01 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.391, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.234, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.228, accuracy = 0.906
+Iteration 150:  minibatch training loss = 0.181, accuracy = 0.938
+Loss: 0.259 | Accuracy: 0.908 (training, average)
+Loss: 1.395 | Accuracy: 0.626 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.287, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.114, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.152, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.148, accuracy = 0.953
+Loss: 0.154 | Accuracy: 0.946 (training, average)
+Loss: 2.337 | Accuracy: 0.563 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.322, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.164, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.115, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.099, accuracy = 0.969
+Loss: 0.135 | Accuracy: 0.952 (training, average)
+Loss: 2.161 | Accuracy: 0.624 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.103, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.158, accuracy = 0.938
+Iteration 100:  minibatch training loss = 0.122, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.299, accuracy = 0.922
+Loss: 0.134 | Accuracy: 0.952 (training, average)
+Loss: 2.431 | Accuracy: 0.623 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.057, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.100, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.211, accuracy = 0.922
+Iteration 150:  minibatch training loss = 0.080, accuracy = 0.984
+Loss: 0.164 | Accuracy: 0.942 (training, average)
+Loss: 2.250 | Accuracy: 0.606 (validation)
+
+Done in 663s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 70/80: lr = 1.00e-01 | reg = 1.00e-03 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.833, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.953, accuracy = 0.656
+Iteration 100:  minibatch training loss = 0.957, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.898, accuracy = 0.672
+Loss: 0.971 | Accuracy: 0.688 (training, average)
+Loss: 2.103 | Accuracy: 0.540 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.726, accuracy = 0.734
+Iteration  50:  minibatch training loss = 1.121, accuracy = 0.625
+Iteration 100:  minibatch training loss = 0.602, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.829, accuracy = 0.656
+Loss: 0.799 | Accuracy: 0.722 (training, average)
+Loss: 1.706 | Accuracy: 0.557 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.793, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.969, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.566, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.731, accuracy = 0.703
+Loss: 0.735 | Accuracy: 0.745 (training, average)
+Loss: 1.796 | Accuracy: 0.548 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.483, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.716, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.712, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.903, accuracy = 0.703
+Loss: 0.694 | Accuracy: 0.757 (training, average)
+Loss: 1.677 | Accuracy: 0.563 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.591, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.908, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.618, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.693, accuracy = 0.734
+Loss: 0.712 | Accuracy: 0.751 (training, average)
+Loss: 1.432 | Accuracy: 0.607 (validation)
+
+Done in 670s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 71/80: lr = 1.00e-01 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.347, accuracy = 0.922
+Iteration  50:  minibatch training loss = 0.317, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.168, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.149, accuracy = 0.969
+Loss: 0.221 | Accuracy: 0.924 (training, average)
+Loss: 1.473 | Accuracy: 0.638 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.175, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.245, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.086, accuracy = 0.984
+Iteration 150:  minibatch training loss = 0.144, accuracy = 0.938
+Loss: 0.138 | Accuracy: 0.952 (training, average)
+Loss: 1.609 | Accuracy: 0.648 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.066, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.040, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.126, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.178, accuracy = 0.953
+Loss: 0.083 | Accuracy: 0.971 (training, average)
+Loss: 1.968 | Accuracy: 0.633 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.043, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.080, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.018, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.113, accuracy = 0.969
+Loss: 0.057 | Accuracy: 0.980 (training, average)
+Loss: 2.030 | Accuracy: 0.656 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.042, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.025, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.098, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.047, accuracy = 0.984
+Loss: 0.054 | Accuracy: 0.983 (training, average)
+Loss: 2.017 | Accuracy: 0.643 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 72/80: lr = 1.00e-01 | reg = 1.00e-03 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.791, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.969, accuracy = 0.641
+Iteration 100:  minibatch training loss = 0.598, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.605, accuracy = 0.734
+Loss: 0.978 | Accuracy: 0.693 (training, average)
+Loss: 1.740 | Accuracy: 0.574 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.758, accuracy = 0.734
+Iteration  50:  minibatch training loss = 0.713, accuracy = 0.719
+Iteration 100:  minibatch training loss = 0.770, accuracy = 0.703
+Iteration 150:  minibatch training loss = 0.694, accuracy = 0.750
+Loss: 0.767 | Accuracy: 0.733 (training, average)
+Loss: 1.808 | Accuracy: 0.537 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.714, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.859, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.767, accuracy = 0.672
+Iteration 150:  minibatch training loss = 0.496, accuracy = 0.797
+Loss: 0.740 | Accuracy: 0.744 (training, average)
+Loss: 1.561 | Accuracy: 0.567 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.672, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.549, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.583, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.667, accuracy = 0.750
+Loss: 0.642 | Accuracy: 0.775 (training, average)
+Loss: 1.606 | Accuracy: 0.584 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.398, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.520, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.644, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.474, accuracy = 0.812
+Loss: 0.615 | Accuracy: 0.785 (training, average)
+Loss: 1.584 | Accuracy: 0.603 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 73/80: lr = 1.00e-01 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.202, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.226, accuracy = 0.922
+Iteration 100:  minibatch training loss = 0.189, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.133, accuracy = 0.953
+Loss: 0.179 | Accuracy: 0.936 (training, average)
+Loss: 1.428 | Accuracy: 0.650 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.079, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.053, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.026, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.088, accuracy = 0.969
+Loss: 0.071 | Accuracy: 0.977 (training, average)
+Loss: 1.716 | Accuracy: 0.649 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.038, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.030, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.037, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.225, accuracy = 0.906
+Loss: 0.060 | Accuracy: 0.979 (training, average)
+Loss: 1.849 | Accuracy: 0.647 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.085, accuracy = 0.953
+Iteration  50:  minibatch training loss = 0.100, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.071, accuracy = 0.969
+Iteration 150:  minibatch training loss = 0.159, accuracy = 0.922
+Loss: 0.134 | Accuracy: 0.958 (training, average)
+Loss: 1.940 | Accuracy: 0.664 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.052, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.143, accuracy = 0.969
+Iteration 100:  minibatch training loss = 0.032, accuracy = 0.984
+Iteration 150:  minibatch training loss = 0.118, accuracy = 0.953
+Loss: 0.062 | Accuracy: 0.980 (training, average)
+Loss: 2.232 | Accuracy: 0.627 (validation)
+
+Done in 663s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 74/80: lr = 1.00e-01 | reg = 1.00e-02 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 1.566, accuracy = 0.641
+Iteration  50:  minibatch training loss = 0.830, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.872, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.722, accuracy = 0.734
+Loss: 0.927 | Accuracy: 0.703 (training, average)
+Loss: 2.021 | Accuracy: 0.554 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.825, accuracy = 0.672
+Iteration  50:  minibatch training loss = 0.647, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.623, accuracy = 0.766
+Iteration 150:  minibatch training loss = 0.633, accuracy = 0.750
+Loss: 0.739 | Accuracy: 0.745 (training, average)
+Loss: 1.970 | Accuracy: 0.555 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.696, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.729, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.802, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.762, accuracy = 0.750
+Loss: 0.680 | Accuracy: 0.761 (training, average)
+Loss: 1.906 | Accuracy: 0.579 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.758, accuracy = 0.703
+Iteration  50:  minibatch training loss = 0.588, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.670, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.470, accuracy = 0.828
+Loss: 0.705 | Accuracy: 0.762 (training, average)
+Loss: 1.553 | Accuracy: 0.586 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.561, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.315, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.716, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.516, accuracy = 0.812
+Loss: 0.656 | Accuracy: 0.772 (training, average)
+Loss: 1.689 | Accuracy: 0.569 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 75/80: lr = 1.00e-01 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.269, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.219, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.133, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.205, accuracy = 0.922
+Loss: 0.171 | Accuracy: 0.939 (training, average)
+Loss: 1.348 | Accuracy: 0.640 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.072, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.050, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.021, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.077, accuracy = 0.953
+Loss: 0.075 | Accuracy: 0.977 (training, average)
+Loss: 1.606 | Accuracy: 0.661 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.046, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.044, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.025, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.040, accuracy = 0.984
+Loss: 0.030 | Accuracy: 0.992 (training, average)
+Loss: 1.705 | Accuracy: 0.678 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.039, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.009, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.024, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.021, accuracy = 1.000
+Loss: 0.014 | Accuracy: 0.998 (training, average)
+Loss: 1.856 | Accuracy: 0.668 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.012, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.019, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.005, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.004, accuracy = 1.000
+Loss: 0.007 | Accuracy: 0.999 (training, average)
+Loss: 1.828 | Accuracy: 0.676 (validation)
+
+Done in 666s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 76/80: lr = 1.00e-01 | reg = 1.00e-02 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.372, accuracy = 0.906
+Iteration  50:  minibatch training loss = 1.061, accuracy = 0.688
+Iteration 100:  minibatch training loss = 0.485, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.728, accuracy = 0.703
+Loss: 0.812 | Accuracy: 0.736 (training, average)
+Loss: 1.980 | Accuracy: 0.558 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.894, accuracy = 0.719
+Iteration  50:  minibatch training loss = 0.343, accuracy = 0.875
+Iteration 100:  minibatch training loss = 0.560, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.865, accuracy = 0.766
+Loss: 0.736 | Accuracy: 0.748 (training, average)
+Loss: 1.542 | Accuracy: 0.599 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.518, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.407, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.611, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.483, accuracy = 0.797
+Loss: 0.623 | Accuracy: 0.781 (training, average)
+Loss: 1.603 | Accuracy: 0.605 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.528, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.668, accuracy = 0.734
+Iteration 100:  minibatch training loss = 0.620, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.641, accuracy = 0.734
+Loss: 0.614 | Accuracy: 0.789 (training, average)
+Loss: 1.593 | Accuracy: 0.589 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.383, accuracy = 0.875
+Iteration  50:  minibatch training loss = 0.553, accuracy = 0.812
+Iteration 100:  minibatch training loss = 0.477, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.358, accuracy = 0.859
+Loss: 0.563 | Accuracy: 0.804 (training, average)
+Loss: 1.686 | Accuracy: 0.599 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 77/80: lr = 1.00e-01 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.280, accuracy = 0.891
+Iteration  50:  minibatch training loss = 0.084, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.144, accuracy = 0.953
+Iteration 150:  minibatch training loss = 0.083, accuracy = 0.969
+Loss: 0.138 | Accuracy: 0.952 (training, average)
+Loss: 1.343 | Accuracy: 0.662 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.050, accuracy = 0.984
+Iteration  50:  minibatch training loss = 0.045, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.027, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.043, accuracy = 0.969
+Loss: 0.055 | Accuracy: 0.983 (training, average)
+Loss: 1.838 | Accuracy: 0.662 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.037, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.040, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.026, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.010, accuracy = 1.000
+Loss: 0.027 | Accuracy: 0.994 (training, average)
+Loss: 1.840 | Accuracy: 0.673 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.017, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.015, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.006, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.016, accuracy = 1.000
+Loss: 0.016 | Accuracy: 0.997 (training, average)
+Loss: 1.934 | Accuracy: 0.670 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.002, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.005, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.011, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.017, accuracy = 1.000
+Loss: 0.021 | Accuracy: 0.994 (training, average)
+Loss: 2.257 | Accuracy: 0.661 (validation)
+
+Done in 662s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 78/80: lr = 1.00e-01 | reg = 1.00e-01 | lr_dec = 1.000 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.561, accuracy = 0.812
+Iteration  50:  minibatch training loss = 0.594, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.744, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.650, accuracy = 0.750
+Loss: 0.840 | Accuracy: 0.734 (training, average)
+Loss: 2.063 | Accuracy: 0.528 (validation)
+
+Epoch 2/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.416, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.447, accuracy = 0.844
+Iteration 100:  minibatch training loss = 0.626, accuracy = 0.812
+Iteration 150:  minibatch training loss = 0.722, accuracy = 0.797
+Loss: 0.721 | Accuracy: 0.758 (training, average)
+Loss: 1.771 | Accuracy: 0.555 (validation)
+
+Epoch 3/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.590, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.564, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.815, accuracy = 0.750
+Iteration 150:  minibatch training loss = 0.635, accuracy = 0.719
+Loss: 0.637 | Accuracy: 0.778 (training, average)
+Loss: 1.908 | Accuracy: 0.553 (validation)
+
+Epoch 4/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.615, accuracy = 0.797
+Iteration  50:  minibatch training loss = 0.650, accuracy = 0.750
+Iteration 100:  minibatch training loss = 0.957, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.613, accuracy = 0.766
+Loss: 0.649 | Accuracy: 0.781 (training, average)
+Loss: 1.786 | Accuracy: 0.582 (validation)
+
+Epoch 5/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.436, accuracy = 0.844
+Iteration  50:  minibatch training loss = 0.622, accuracy = 0.766
+Iteration 100:  minibatch training loss = 0.688, accuracy = 0.781
+Iteration 150:  minibatch training loss = 0.492, accuracy = 0.797
+Loss: 0.623 | Accuracy: 0.785 (training, average)
+Loss: 1.691 | Accuracy: 0.593 (validation)
+
+Done in 667s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 79/80: lr = 1.00e-01 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.000
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.259, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.162, accuracy = 0.953
+Iteration 100:  minibatch training loss = 0.106, accuracy = 0.938
+Iteration 150:  minibatch training loss = 0.049, accuracy = 0.984
+Loss: 0.159 | Accuracy: 0.945 (training, average)
+Loss: 1.355 | Accuracy: 0.639 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.067, accuracy = 0.969
+Iteration  50:  minibatch training loss = 0.042, accuracy = 0.984
+Iteration 100:  minibatch training loss = 0.008, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.040, accuracy = 1.000
+Loss: 0.051 | Accuracy: 0.985 (training, average)
+Loss: 1.762 | Accuracy: 0.670 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.037, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.021, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.054, accuracy = 0.984
+Iteration 150:  minibatch training loss = 0.016, accuracy = 1.000
+Loss: 0.025 | Accuracy: 0.995 (training, average)
+Loss: 1.886 | Accuracy: 0.667 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.017, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.002, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.005, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.008, accuracy = 1.000
+Loss: 0.012 | Accuracy: 0.998 (training, average)
+Loss: 1.837 | Accuracy: 0.680 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.003, accuracy = 1.000
+Iteration  50:  minibatch training loss = 0.001, accuracy = 1.000
+Iteration 100:  minibatch training loss = 0.002, accuracy = 1.000
+Iteration 150:  minibatch training loss = 0.011, accuracy = 1.000
+Loss: 0.006 | Accuracy: 1.000 (training, average)
+Loss: 1.828 | Accuracy: 0.692 (validation)
+
+Done in 665s.
+
+--------------------------------------------------------------------------------
+Hyperparameters 80/80: lr = 1.00e-01 | reg = 1.00e-01 | lr_dec = 0.960 | dpo = 0.500
+--------------------------------------------------------------------------------
+Epoch 1/5 (learning rate 1.000e-01)
+Iteration   0:  minibatch training loss = 0.251, accuracy = 0.906
+Iteration  50:  minibatch training loss = 0.509, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.993, accuracy = 0.641
+Iteration 150:  minibatch training loss = 0.607, accuracy = 0.781
+Loss: 0.790 | Accuracy: 0.748 (training, average)
+Loss: 1.800 | Accuracy: 0.601 (validation)
+
+Epoch 2/5 (learning rate 9.600e-02)
+Iteration   0:  minibatch training loss = 0.538, accuracy = 0.828
+Iteration  50:  minibatch training loss = 0.553, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.721, accuracy = 0.719
+Iteration 150:  minibatch training loss = 0.544, accuracy = 0.812
+Loss: 0.710 | Accuracy: 0.754 (training, average)
+Loss: 1.684 | Accuracy: 0.596 (validation)
+
+Epoch 3/5 (learning rate 9.216e-02)
+Iteration   0:  minibatch training loss = 0.652, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.587, accuracy = 0.781
+Iteration 100:  minibatch training loss = 0.819, accuracy = 0.734
+Iteration 150:  minibatch training loss = 0.423, accuracy = 0.844
+Loss: 0.619 | Accuracy: 0.780 (training, average)
+Loss: 1.894 | Accuracy: 0.584 (validation)
+
+Epoch 4/5 (learning rate 8.847e-02)
+Iteration   0:  minibatch training loss = 0.570, accuracy = 0.766
+Iteration  50:  minibatch training loss = 0.352, accuracy = 0.828
+Iteration 100:  minibatch training loss = 0.884, accuracy = 0.797
+Iteration 150:  minibatch training loss = 0.539, accuracy = 0.766
+Loss: 0.576 | Accuracy: 0.801 (training, average)
+Loss: 1.777 | Accuracy: 0.605 (validation)
+
+Epoch 5/5 (learning rate 8.493e-02)
+Iteration   0:  minibatch training loss = 0.484, accuracy = 0.750
+Iteration  50:  minibatch training loss = 0.254, accuracy = 0.906
+Iteration 100:  minibatch training loss = 0.527, accuracy = 0.828
+Iteration 150:  minibatch training loss = 0.523, accuracy = 0.797
+Loss: 0.534 | Accuracy: 0.816 (training, average)
+Loss: 1.822 | Accuracy: 0.601 (validation)
+
+Done in 668s.
+
+
+Best hyperparameters: lr = 1.00e-02, reg = 1.00e-01, lr_dec = 1.000, dpo = 0.000
+with validation accuracy 0.714
