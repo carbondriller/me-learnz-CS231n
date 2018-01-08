@@ -52,7 +52,7 @@ def deprocess_image(img, rescale=False):
         img = (img - vmin) / (vmax - vmin)
     return np.clip(255 * img, 0.0, 255.0).astype(np.uint8)
 
-
+# Fix from https://www.reddit.com/r/cs231n/comments/5lqzrl/solution_error_32_the_process_cannot_access_the/
 def image_from_url(url):
     """
     Read an image from a URL. Returns a numpy array with the pixel data.
@@ -60,10 +60,11 @@ def image_from_url(url):
     """
     try:
         f = urllib.request.urlopen(url)
-        _, fname = tempfile.mkstemp()
+        fd, fname = tempfile.mkstemp()
         with open(fname, 'wb') as ff:
             ff.write(f.read())
         img = imread(fname)
+        os.close(fd)
         os.remove(fname)
         return img
     except urllib.error.URLError as e:
