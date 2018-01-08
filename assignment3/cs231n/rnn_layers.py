@@ -131,7 +131,21 @@ def rnn_forward(x, h0, Wx, Wh, b):
     # input data. You should use the rnn_step_forward function that you defined  #
     # above. You can use a for loop to help compute the forward pass.            #
     ##############################################################################
-    pass
+    
+    N, T, _ = x.shape
+    _, H = h0.shape
+    
+    h = np.zeros([N, T, H])  # T hidden layers of shape (N, H)
+    
+    prev_h = h0
+    for t in range(T):
+        xt = x[:, t, :]
+        next_h, _ = rnn_step_forward(xt, prev_h, Wx, Wh, b)
+        h[:, t, :] = next_h
+        prev_h = next_h
+        
+    cache = (x, h0, Wx, Wh, b, h)
+        
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
@@ -158,7 +172,37 @@ def rnn_backward(dh, cache):
     # sequence of data. You should use the rnn_step_backward function that you   #
     # defined above. You can use a for loop to help compute the backward pass.   #
     ##############################################################################
-    pass
+    
+    x, h0, Wx, Wh, b, h = cache
+    
+    N, T, H = dh.shape
+    
+    dx  = np.zeros_like(x)
+    dWx = np.zeros_like(Wx)
+    dWh = np.zeros_like(Wh)
+    db  = np.zeros_like(b)
+    
+    dprev_h = np.zeros([N, H])  # Size of 1 hidden layer
+
+    for t in reversed(range(T)):
+        xt = x[:, t, :]
+        
+        next_h = h[:, t, :]
+        prev_h = h[:, t-1, :] if t > 0 else h0        
+        tcache = (xt, prev_h, Wx, Wh, b, next_h)        
+        
+        dnext_h = dh[:, t, :] + dprev_h
+        
+        dxt, dprev_h, dWxt, dWht, dbt = rnn_step_backward(dnext_h, tcache)
+
+        dWx += dWxt
+        dWh += dWht
+        db  += dbt
+        
+        dx[:, t, :] = dxt
+        
+    dh0 = dprev_h
+    
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
