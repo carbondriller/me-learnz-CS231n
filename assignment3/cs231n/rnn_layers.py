@@ -177,10 +177,10 @@ def rnn_backward(dh, cache):
     
     N, T, H = dh.shape
     
-    dx  = np.zeros_like(x)
-    dWx = np.zeros_like(Wx)
-    dWh = np.zeros_like(Wh)
-    db  = np.zeros_like(b)
+    dx  = np.zeros(x.shape)
+    dWx = np.zeros(Wx.shape)
+    dWh = np.zeros(Wh.shape)
+    db  = np.zeros(b.shape)
     
     dprev_h = np.zeros([N, H])  # Size of 1 hidden layer
 
@@ -264,7 +264,7 @@ def word_embedding_backward(dout, cache):
     ##############################################################################
     
     x, W = cache    
-    dW = np.zeros_like(W)
+    dW = np.zeros(W.shape)
     
     # np.add.at(A, indices, x) adds x to A[indices]
     np.add.at(dW, x, dout)
