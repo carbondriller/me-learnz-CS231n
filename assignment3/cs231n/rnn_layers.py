@@ -34,10 +34,12 @@ def rnn_step_forward(x, prev_h, Wx, Wh, b):
     # hidden state and any values you need for the backward pass in the next_h   #
     # and cache variables respectively.                                          #
     ##############################################################################
+
+    p = prev_h.dot(Wh) + x.dot(Wx) + b
     
-    next_h = np.tanh( prev_h.dot(Wh) + x.dot(Wx) + b )
+    next_h = np.tanh(p)
     
-    cache = (x, prev_h, Wx, Wh, b)
+    cache = (x, prev_h, Wx, Wh, b, next_h)
     
     ##############################################################################
     #                               END OF YOUR CODE                             #
@@ -67,7 +69,38 @@ def rnn_step_backward(dnext_h, cache):
     # HINT: For the tanh function, you can compute the local derivative in terms #
     # of the output value from tanh.                                             #
     ##############################################################################
-    pass
+    
+    # rnn_step_forward flowgraph:
+    #
+    # x
+    # --------+
+    # dx       \
+    #          (*)---+
+    # Wx       /   dp \
+    # --------+        \   
+    # dWx               \             p         next_h
+    #                   (+)------(+)----(tanh)--------
+    # prev_h            /    dp  /   dp        dnext_h
+    # --------+        /        /
+    # dprev_h  \      /   b    /
+    #          (*)---+    ----+
+    # Wh       /   dp     db
+    # --------+
+    # dWh
+    
+    x, prev_h, Wx, Wh, b, next_h = cache
+    
+    # derivative of tanh(x) is 1 - tanh(x)^2
+    dp = dnext_h * (1 - np.square(next_h))
+    
+    db = np.sum(dp, axis=0) # (N, H) into (H)
+    
+    dx = dp.dot(Wx.T)
+    dWx = x.T.dot(dp)
+    
+    dprev_h = dp.dot(Wh.T)
+    dWh = prev_h.T.dot(dp)
+    
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
