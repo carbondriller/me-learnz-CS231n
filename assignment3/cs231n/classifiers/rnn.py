@@ -148,9 +148,8 @@ class CaptioningRNN(object):
         # (3)
         if self.cell_type == 'rnn':
             h, h_cache = rnn_forward(x, h0, Wx, Wh, b)
-        # elif self.cell_type == 'lstm:'
-        else:
-            raise ValueError("Invalid cell type: {}".format(self.cell_type))
+        elif self.cell_type == 'lstm':
+            pass
             
         # (4)
         scores, scores_cache = temporal_affine_forward(h, W_vocab, b_vocab)
@@ -165,9 +164,8 @@ class CaptioningRNN(object):
         # (3)
         if self.cell_type == 'rnn':
             dx, dh0, dWx, dWh, db = rnn_backward(dh, h_cache)
-        # elif self.cell_type == 'lstm:'
-        else:
-            raise ValueError("Invalid cell type: {}".format(self.cell_type))
+        elif self.cell_type == 'lstm':
+            pass
             
         # (2)
         dW_embed = word_embedding_backward(dx, x_cache)
@@ -245,7 +243,32 @@ class CaptioningRNN(object):
         # functions; you'll need to call rnn_step_forward or lstm_step_forward in #
         # a loop.                                                                 #
         ###########################################################################
-        pass
+        
+        # Init hidden state (no need for cache since we do only a forward pass)
+        h0, _ = affine_forward(features, W_proj, b_proj)
+        
+        captions[:, 0] = self._start  # All captions start with <START>
+        prev_h = h0
+        
+        for t in range(1, max_length):
+            # (1)
+            prev_x, _ = word_embedding_forward(captions[:, t-1], W_embed)
+            
+            # (2)            
+            if self.cell_type == 'rnn':
+                next_h, _ = rnn_step_forward(prev_x, prev_h, Wx, Wh, b)                
+            elif self.cell_type == 'lstm':
+                pass
+
+            # (3)
+            scores, _ = affine_forward(next_h, W_vocab, b_vocab)
+            
+            # (4)
+            captions[:, t] = np.argmax(scores, axis = 1)
+            
+            # Update hidden state
+            prev_h = next_h
+            
         ############################################################################
         #                             END OF YOUR CODE                             #
         ############################################################################
