@@ -249,29 +249,31 @@ class CaptioningRNN(object):
         ###########################################################################
         
         # Init hidden state (no need for cache since we do only a forward pass)
-        h0, _ = affine_forward(features, W_proj, b_proj)
+        h0 = affine_forward(features, W_proj, b_proj)[0]
         
         captions[:, 0] = self._start  # All captions start with <START>
         prev_h = h0
+        prev_c = np.zeros(h0.shape)
         
         for t in range(1, max_length):
             # (1)
-            prev_x, _ = word_embedding_forward(captions[:, t-1], W_embed)
+            prev_x = word_embedding_forward(captions[:, t-1], W_embed)[0]
             
             # (2)            
             if self.cell_type == 'rnn':
-                next_h, _ = rnn_step_forward(prev_x, prev_h, Wx, Wh, b)                
+                next_h = rnn_step_forward(prev_x, prev_h, Wx, Wh, b)[0]
             elif self.cell_type == 'lstm':
-                pass
+                next_h, next_c = lstm_step_forward(prev_x, prev_h, prev_c, Wx, Wh, b)[0:2]
 
             # (3)
-            scores, _ = affine_forward(next_h, W_vocab, b_vocab)
+            scores = affine_forward(next_h, W_vocab, b_vocab)[0]
             
             # (4)
             captions[:, t] = np.argmax(scores, axis = 1)
             
             # Update hidden state
             prev_h = next_h
+            prev_c = next_c
             
         ############################################################################
         #                             END OF YOUR CODE                             #
