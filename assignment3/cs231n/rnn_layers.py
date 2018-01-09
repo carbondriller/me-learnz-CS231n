@@ -314,7 +314,26 @@ def lstm_step_forward(x, prev_h, prev_c, Wx, Wh, b):
     # TODO: Implement the forward pass for a single timestep of an LSTM.        #
     # You may want to use the numerically stable sigmoid implementation above.  #
     #############################################################################
-    pass
+    
+    # Activation vector (N, 4H)
+    a = x.dot(Wx) + prev_h.dot(Wh) + b
+
+    # 4 subvectors (N, H)
+    ai, af, ao, ag = np.split(a, 4, axis=1)    
+    
+    # Gates (N, H)
+    i = sigmoid(ai)  # Input gate
+    f = sigmoid(af)  # Forget gate
+    o = sigmoid(ao)  # Output gate
+    g = np.tanh(ag)  # Block input gate
+    
+    # Next states (N, H)
+    next_c = f * prev_c + i * g
+    tanh_c = np.tanh(next_c)
+    next_h = o * tanh_c
+    
+    cache = (x, prev_h, prev_c, Wx, Wh, b, i, f, o, g, tanh_c)
+    
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
@@ -339,14 +358,81 @@ def lstm_step_backward(dnext_h, dnext_c, cache):
     - dWh: Gradient of hidden-to-hidden weights, of shape (H, 4H)
     - db: Gradient of biases, of shape (4H,)
     """
-    dx, dh, dc, dWx, dWh, db = None, None, None, None, None, None
+    # Corrected variable names here
+    dx, dprev_h, dprev_c, dWx, dWh, db = None, None, None, None, None, None
     #############################################################################
     # TODO: Implement the backward pass for a single timestep of an LSTM.       #
     #                                                                           #
     # HINT: For sigmoid and tanh you can compute local derivatives in terms of  #
     # the output value from the nonlinearity.                                   #
     #############################################################################
-    pass
+
+    # Flowgraph (1):
+    #
+    # x                                          ai         i
+    # --------+                               +-----(sigm)--- ... (2)
+    # dx       \                             /  dai        di
+    #          (*)---+                      /
+    # Wx       /   da \                    /     af         f
+    # --------+        \                  +---------(sigm)--- ... (2)
+    # dWx               \             a  /      daf        df
+    #                   (+)------(+)----+
+    # prev_h            /    da  /   da  \       ao         o
+    # --------+        /        /         +---------(sigm)--- ... (2)
+    # dprev_h  \      /   b    /           \    dao        do
+    #          (*)---+    ----+             \
+    # Wh       /   da     db                 \   ag         g
+    # --------+                               +-----(tanh)--- ... (2)
+    # dWh                                       dag        dg
+
+    # Flowgraph (2):
+    #
+    #         f
+    # (1) ... --------+
+    #         df       \
+    #                  (*)---+
+    # prev_c           /      \
+    # ----------------+        \
+    # dprev_c                   \    next_c         tanh_c      next_h
+    #                           (+)---------(tanh)---------(*)---------   
+    #         i                 /   dnext_c        dtanh_c /   dnext_h
+    # (1) ... --------+        /                          /
+    #         di       \      /                     o    /
+    #                  (*)---+              (1) ... ----+
+    #         g        /                            do
+    # (1) ... --------+
+    #         dg
+
+    # Derivative of tanh(x): 1 - tanh(x)^2
+    # Derivative of sigm(x): sigm(x) * (1 - sigm(x))
+
+    x, prev_h, prev_c, Wx, Wh, b, i, f, o, g, tanh_c = cache
+    
+    # (2)
+    do = tanh_c * dnext_h
+    dtanh_c = o * dnext_h
+    dnext_c += dtanh_c * (1 - tanh_c**2)
+
+    df = prev_c * dnext_c
+    dprev_c = f * dnext_c
+    di = g * dnext_c
+    dg = i * dnext_c
+    
+    # (1)
+    dai = di * (i * (1 - i))
+    daf = df * (f * (1 - f))
+    dao = do * (o * (1 - o))
+    dag = dg * (1 - g**2)
+    
+    da = np.hstack([dai, daf, dao, dag])
+    
+    db = np.sum(da, axis=0)
+    
+    dx = da.dot(Wx.T)
+    dWx = x.T.dot(da)    
+    dprev_h = da.dot(Wh.T)
+    dWh = prev_h.T.dot(da)    
+    
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
