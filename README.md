@@ -25,7 +25,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/NetworkVisualization-TensorFlow.ipynb))
     - Q4: Style Transfer
     - Q5: Generative Adversarial Networks
-    - 
+    
 ## Links
 
 * Course homepage: http://cs231n.stanford.edu
