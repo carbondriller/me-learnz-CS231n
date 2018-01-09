@@ -17,10 +17,10 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q2: Batch Normalization ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/BatchNormalization.ipynb))
     - Q3: Dropout ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/Dropout.ipynb))
     - Q4: Convolutional Networks ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/ConvolutionalNetworks.ipynb))
-    - Q5: PyTorch / TensorFlow on CIFAR-10
+    - Q5: PyTorch / TensorFlow on CIFAR-10 ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/TensorFlow.ipynb))
     - Q6: Do something extra!
 * [**Assignment 3**](http://cs231n.github.io/assignments2017/assignment3)
-    - Q1: Image Captioning with Vanilla RNNs
+    - Q1: Image Captioning with Vanilla RNNs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/RNN_Captioning.ipynb))
     - Q2: Training a Support Vector Machine
     - Q3: Implement a Softmax classifier
     - Q4: Two-Layer Neural Network
