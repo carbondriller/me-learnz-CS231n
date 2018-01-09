@@ -468,8 +468,8 @@ def lstm_forward(x, h0, Wx, Wh, b):
     # You should use the lstm_step_forward function that you just defined.      #
     #############################################################################
     
-    N, T, _ = x.shape
-    _, H = h0.shape
+    N, T = x.shape[0:2]
+    H = h0.shape[1]
     
     cache = []
     h = np.zeros([N, T, H])  # T hidden layers of shape (N, H)
