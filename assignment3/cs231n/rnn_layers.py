@@ -467,7 +467,25 @@ def lstm_forward(x, h0, Wx, Wh, b):
     # TODO: Implement the forward pass for an LSTM over an entire timeseries.   #
     # You should use the lstm_step_forward function that you just defined.      #
     #############################################################################
-    pass
+    
+    N, T, _ = x.shape
+    _, H = h0.shape
+    
+    cache = []
+    h = np.zeros([N, T, H])  # T hidden layers of shape (N, H)
+    c = np.zeros([N, T, H])
+    
+    prev_h = h0
+    prev_c = np.zeros([N, H])  # Size of 1 hidden layer
+    for t in range(T):
+        xt = x[:, t, :]
+        next_h, next_c, tcache = lstm_step_forward(xt, prev_h, prev_c, Wx, Wh, b)
+        h[:, t, :] = next_h
+        c[:, t, :] = next_c
+        prev_h = next_h
+        prev_c = next_c        
+        cache.append(tcache)
+    
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
@@ -495,7 +513,35 @@ def lstm_backward(dh, cache):
     # TODO: Implement the backward pass for an LSTM over an entire timeseries.  #
     # You should use the lstm_step_backward function that you just defined.     #
     #############################################################################
-    pass
+    
+    N, T, H = dh.shape
+        
+    xT = cache[T-1][0]
+    
+    D = xT.shape[1]
+    
+    dx  = np.zeros([N, T, D])
+    dWx = np.zeros([D, 4*H])
+    dWh = np.zeros([H, 4*H])
+    db  = np.zeros(4*H)
+    
+    dprev_h = np.zeros([N, H])  # Size of 1 hidden layer
+    dprev_c = np.zeros([N, H])
+
+    for t in reversed(range(T)):
+        tcache = cache[t]
+        dnext_h = dh[:, t, :] + dprev_h
+        dnext_c = dprev_c
+        
+        dxt, dprev_h, dprev_c, dWxt, dWht, dbt = lstm_step_backward(dnext_h, dnext_c, tcache)
+
+        dx[:, t, :] = dxt
+        dWx += dWxt
+        dWh += dWht
+        db  += dbt        
+        
+    dh0 = dprev_h
+    
     ##############################################################################
     #                               END OF YOUR CODE                             #
     ##############################################################################
