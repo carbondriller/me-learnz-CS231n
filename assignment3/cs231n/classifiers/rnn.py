@@ -149,7 +149,7 @@ class CaptioningRNN(object):
         if self.cell_type == 'rnn':
             h, h_cache = rnn_forward(x, h0, Wx, Wh, b)
         elif self.cell_type == 'lstm':
-            pass
+            h, h_cache = lstm_forward(x, h0, Wx, Wh, b)
             
         # (4)
         scores, scores_cache = temporal_affine_forward(h, W_vocab, b_vocab)
@@ -165,7 +165,7 @@ class CaptioningRNN(object):
         if self.cell_type == 'rnn':
             dx, dh0, dWx, dWh, db = rnn_backward(dh, h_cache)
         elif self.cell_type == 'lstm':
-            pass
+            dx, dh0, dWx, dWh, db = lstm_backward(dh, h_cache)
             
         # (2)
         dW_embed = word_embedding_backward(dx, x_cache)
