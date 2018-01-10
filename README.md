@@ -21,7 +21,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q6: Do something extra!
 * [**Assignment 3**](http://cs231n.github.io/assignments2017/assignment3)
     - Q1: Image Captioning with Vanilla RNNs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/RNN_Captioning.ipynb))
-    - Q2: Image Captioning with LSTMs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/LSTM_Captioning.ipynb)
+    - Q2: Image Captioning with LSTMs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/LSTM_Captioning.ipynb))
     - Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/NetworkVisualization-TensorFlow.ipynb))
     - Q4: Style Transfer ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb))
     - Q5: Generative Adversarial Networks
