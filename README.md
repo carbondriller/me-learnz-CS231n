@@ -23,7 +23,7 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q1: Image Captioning with Vanilla RNNs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/RNN_Captioning.ipynb))
     - Q2: Image Captioning with LSTMs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/LSTM_Captioning.ipynb)
     - Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/NetworkVisualization-TensorFlow.ipynb))
-    - Q4: Style Transfer
+    - Q4: Style Transfer ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb))
     - Q5: Generative Adversarial Networks
     
 ## Links
@@ -46,3 +46,4 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
 * I directly copy-pasted some backpropagations from [cthorey](https://github.com/cthorey/CS231).
 They are noted in the code.
 I am not perfectly fluent with derivations and currently don't have enough time to it properly.
+* The later exercises are done in TensorFlow.
