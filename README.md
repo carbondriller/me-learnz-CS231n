@@ -19,7 +19,7 @@ My solutions to the computer vision course taught at Stanford University (spring
 I am not a student of SU, I just do this out of curiosity and to help me in my current job.
 
 The course is now complete.
-As for now, exercises are done only in TensorFlow and it do not include any extra bonus tasks.
+As for now, exercises are done only in TensorFlow and do not include extra bonus tasks.
 
 # Structure
 
