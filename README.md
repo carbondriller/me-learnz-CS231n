@@ -44,7 +44,7 @@ As for now, exercises are done only in TensorFlow and it do not include any extr
 
 * [CS231n staff](http://cs231n.stanford.edu) for creating this course, maintaining it and making it accessible to a public audience.
 * [lightaime's solutions](https://github.com/lightaime/cs231n): I used these to verify my solutions and pull me out when stuck.
-* [cthoreys's solutions](https://github.com/cthorey/CS231): dtto; Also, I directly copy-pasted some [backpropagations](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/cs231n/layers.py#L206) from it since I am not perfectly fluent with derivations and currently don't have enough time to do it myself.
+* [cthoreys's solutions](https://github.com/cthorey/CS231): dtto; Also, I directly copy-pasted some [backpropagations](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/cs231n/layers.py#L288) from it since I am not perfectly fluent with derivations and currently don't have enough time to do it myself.
 * [madalinabuzau's solutions](https://github.com/madalinabuzau/CS231n-Convolutional-Neural-Networks-for-Visual-Recognition): Helped later in Assignment 3.
 
 ## Notes
