@@ -1,17 +1,27 @@
 # [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu)
 
-[![Completion status](https://img.shields.io/badge/status-complete-brightgreen.svg)]()
+[![Spring 2017 status](https://img.shields.io/badge/Spring_2017-complete-brightgreen.svg)]()
 [![Used TensorFlow](https://img.shields.io/badge/TensorFlow-yes-brightgreen.svg)]()
 [![Used PyTorch](https://img.shields.io/badge/PyTorch-no-red.svg)]()
 [![Did Extras](https://img.shields.io/badge/extras-no-red.svg)]()
 
-My solutions to this computer vision course taught at Stanford University (spring 2017).
+
+
+[<img src="https://gitlab.com/me-learnz/CS231n/raw/master/assignment3/styles/selfie_crop.jpg" width="96">](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb)
+`+`
+[<img src="https://gitlab.com/me-learnz/CS231n/raw/master/assignment3/styles/sun.jpg" width="96">](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb)
+`=============>`
+[<img src="https://gitlab.com/me-learnz/CS231n/raw/master/assignment3/styles/selfie_mutant_1.jpg" width="96">](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb)
+
+# Overview
+
+My solutions to the computer vision course taught at Stanford University (spring 2017).
 I am not a student of SU, I just do this out of curiosity and to help me in my current job.
 
 The course is now complete.
 As for now, exercises are done only in TensorFlow and it do not include any extra bonus tasks.
 
-## Structure
+# Structure
 
 * [**Assignment 1**](http://cs231n.github.io/assignments2017/assignment1)
     - Q1: k-Nearest Neighbor classifier ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment1/knn.ipynb))
@@ -34,20 +44,20 @@ As for now, exercises are done only in TensorFlow and it do not include any extr
     - Q4: Style Transfer ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb))
     - Q5: Generative Adversarial Networks ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/GANs-TensorFlow.ipynb))
     
-## Links
+# Links
 
 * Course homepage: http://cs231n.stanford.edu
 * Course notes: http://cs231n.github.io
 * GAN training tips: https://github.com/soumith/ganhacks
 
-## Credits
+# Credits
 
 * [CS231n staff](http://cs231n.stanford.edu) for creating this course, maintaining it and making it accessible to a public audience.
 * [lightaime's solutions](https://github.com/lightaime/cs231n): I used these to verify my solutions and pull me out when stuck.
 * [cthoreys's solutions](https://github.com/cthorey/CS231): dtto; Also, I directly copy-pasted some [backpropagations](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/cs231n/layers.py#L288) from it since I am not perfectly fluent with derivations and currently don't have enough time to do it myself.
 * [madalinabuzau's solutions](https://github.com/madalinabuzau/CS231n-Convolutional-Neural-Networks-for-Visual-Recognition): Helped later in Assignment 3.
 
-## Notes
+# Notes
 
 * I used [Anaconda](https://www.anaconda.com/distribution/) Python distribution (3.6) on Windows.
 * To run the assignments notebooks I used `jupyter notebook`.
