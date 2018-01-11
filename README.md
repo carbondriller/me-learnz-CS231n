@@ -1,7 +1,12 @@
 # [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu)
 
+[![Completion status](https://img.shields.io/badge/status-complete-brightgreen.svg)]()
+
 My solutions to this computer vision course taught at Stanford University (spring 2017).
 I am not a student of SU, I just do this out of curiosity and to help me in my current job.
+
+The course is now complete.
+As for now, it does not include any extra bonus tasks.
 
 ## Structure
 
@@ -24,26 +29,24 @@ I am not a student of SU, I just do this out of curiosity and to help me in my c
     - Q2: Image Captioning with LSTMs ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/LSTM_Captioning.ipynb))
     - Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/NetworkVisualization-TensorFlow.ipynb))
     - Q4: Style Transfer ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/StyleTransfer-TensorFlow.ipynb))
-    - Q5: Generative Adversarial Networks
+    - Q5: Generative Adversarial Networks ([solution](https://gitlab.com/me-learnz/CS231n/blob/master/assignment3/GANs-TensorFlow.ipynb))
     
 ## Links
 
 * Course homepage: http://cs231n.stanford.edu
 * Course notes: http://cs231n.github.io
+* GAN training tips: https://github.com/soumith/ganhacks
 
 ## Credits
 
-* [lightaime's solutions](https://github.com/lightaime/cs231n): I used these to verify my solutions and pull me out when stuck
-* [cthoreys's solutions](https://github.com/cthorey/CS231): dtto
-* [madalinabuzau's solutions](https://github.com/madalinabuzau/CS231n-Convolutional-Neural-Networks-for-Visual-Recognition): dtto
+* [CS231n staff](http://cs231n.stanford.edu) for creating this course, maintaining it and making it accessible to a public audience.
+* [lightaime's solutions](https://github.com/lightaime/cs231n): I used these to verify my solutions and pull me out when stuck.
+* [cthoreys's solutions](https://github.com/cthorey/CS231): dtto; Also, I directly copy-pasted some [backpropagations](https://gitlab.com/me-learnz/CS231n/blob/master/assignment2/cs231n/layers.py#L206) from it since I am not perfectly fluent with derivations and currently don't have enough time to do it myself.
+* [madalinabuzau's solutions](https://github.com/madalinabuzau/CS231n-Convolutional-Neural-Networks-for-Visual-Recognition): Helped later in Assignment 3.
 
 ## Notes
 
-* I'm using [Anaconda](https://www.anaconda.com/distribution/) Python distribution (3.6).
-* To run the assignments notebooks I use `jupyter notebook`.
-* Manually resolved errors (xrange, ...) and installed missing packages by `conda install ...`
-* I didn't mess with virtualenvs and requitements.txt since it was broken when I tried it.
-* I directly copy-pasted some backpropagations from [cthorey](https://github.com/cthorey/CS231).
-They are noted in the code.
-I am not perfectly fluent with derivations and currently don't have enough time to it properly.
-* The later exercises are done in TensorFlow.
+* I used [Anaconda](https://www.anaconda.com/distribution/) Python distribution (3.6) on Windows.
+* To run the assignments notebooks I used `jupyter notebook`.
+* I manually resolved errors (xrange -> range, ...) and installed missing packages by `conda install ...`
+* I didn't mess with virtualenvs and requitements.txt since I didn't manage to get it working.
