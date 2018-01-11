@@ -1,12 +1,15 @@
 # [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu)
 
 [![Completion status](https://img.shields.io/badge/status-complete-brightgreen.svg)]()
+[![Used TensorFlow](https://img.shields.io/badge/TensorFlow-yes-brightgreen.svg)]()
+[![Used PyTorch](https://img.shields.io/badge/PyTorch-no-red.svg)]()
+[![Did Extras](https://img.shields.io/badge/extras-no-red.svg)]()
 
 My solutions to this computer vision course taught at Stanford University (spring 2017).
 I am not a student of SU, I just do this out of curiosity and to help me in my current job.
 
 The course is now complete.
-As for now, it does not include any extra bonus tasks.
+As for now, exercises are done only in TensorFlow and it do not include any extra bonus tasks.
 
 ## Structure
 
